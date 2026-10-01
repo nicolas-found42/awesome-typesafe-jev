@@ -276,10 +276,10 @@ def collect(root):
                     add(source, path, start + 1, "", href, description, heading)
 
     def structured(source, path, obj):
-        def walk(node, pointer="", inherited="Resources"):
+        def walk(node, pointer="", inherited="Resources", context_name="", context_desc=""):
             if isinstance(node, list):
                 for i, value in enumerate(node):
-                    walk(value, pointer + "/" + str(i), inherited)
+                    walk(value, pointer + "/" + str(i), inherited, context_name, context_desc)
                 return
             if not isinstance(node, dict):
                 return
@@ -291,12 +291,23 @@ def collect(root):
             if isinstance(category, dict):
                 category = category.get("en") or inherited
             category = str(category or inherited)
-            desc = node.get("description") or node.get("desc") or node.get("summary") or ""
+            inclusion_text = node.get("text", {}) if "evidence" in node else {}
+            inclusion_desc = (
+                inclusion_text.get("en", "") if isinstance(inclusion_text, dict) else ""
+            )
+            desc = (
+                node.get("description")
+                or node.get("desc")
+                or node.get("summary")
+                or inclusion_desc
+                or context_desc
+            )
             if isinstance(desc, dict):
                 desc = desc.get("en") or next(iter(desc.values()), "")
             name = (
                 node.get("name")
                 or node.get("title")
+                or context_name
                 or node.get("repo")
                 or node.get("full_name")
                 or ""
@@ -330,11 +341,21 @@ def collect(root):
                 else "listed"
             )
             for key, url in urls:
+                link_name = name
+                if context_name and not node.get("name") and not node.get("title"):
+                    parsed = urlparse(url)
+                    filename = unquote(parsed.path.rstrip("/").split("/")[-1])
+                    label = (
+                        filename.removesuffix(".md")
+                        if filename.lower().endswith(".md")
+                        else filename
+                    )
+                    link_name = f"{context_name} — {label or parsed.netloc}"
                 add(
                     source,
                     path,
                     pointer + "/" + key,
-                    name,
+                    link_name,
                     url,
                     desc,
                     category,
@@ -393,7 +414,12 @@ def collect(root):
                     "sourceMeta",
                     "inclusion",
                 ):
-                    walk(value, pointer + "/" + key, category)
+                    # Only metadata/evidence inherit resource context. Separate
+                    # catalog records must never borrow another project's text.
+                    if key in ("evidence", "sourceMeta", "inclusion"):
+                        walk(value, pointer + "/" + key, category, name, desc)
+                    else:
+                        walk(value, pointer + "/" + key, category)
 
         walk(obj)
 
