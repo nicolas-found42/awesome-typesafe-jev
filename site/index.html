@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en" data-theme="auto">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <meta
+      name="description"
+      content="Explore {{ENTRY_COUNT}} TypeSafe and Jev resources with instant search, clear categories and saved resources."
+    />
+    <title>{{PAGE_TITLE}} · Jev Atlas</title>
+    <link rel="icon" href="{{BASE}}assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="{{BASE}}assets/style.css" />
+    <link rel="canonical" href="{{CANONICAL}}" />
+    <script src="{{BASE}}assets/theme.js"></script>
+    <script defer src="{{BASE}}assets/app.js"></script>
+  </head>
+  <body
+    data-catalog="{{BASE}}catalog.json"
+    data-default-category="{{DEFAULT_CATEGORY}}"
+  >
+    <a class="skip-link" href="#results">Skip to resources</a>
+    <header class="site-header">
+      <a class="brand" href="{{BASE}}index.html" aria-label="Jev Atlas home">
+        <span class="brand-mark" aria-hidden="true">j<span>↗</span></span>
+        <span
+          >Jev <strong>Atlas</strong
+          ><small>TypeSafe &amp; System One</small></span
+        >
+      </a>
+      <div class="header-actions">
+        <a class="header-link" href="{{BASE}}about.html">About the directory</a>
+        <a
+          class="header-link github-link"
+          href="https://github.com/nicolas-found42/awesome-typesafe-jev"
+          >GitHub <span aria-hidden="true">↗</span></a
+        >
+        <button
+          id="theme-toggle"
+          class="icon-button"
+          type="button"
+          aria-label="Theme: system. Switch to light theme"
+          title="Switch theme"
+        >
+          ◐
+        </button>
+        <button
+          id="menu-toggle"
+          class="icon-button menu-toggle"
+          type="button"
+          aria-controls="category-nav"
+          aria-expanded="false"
+          aria-label="Open category menu"
+        >
+          ☰
+        </button>
+      </div>
+    </header>
+    <div class="page-shell">
+      <aside id="category-nav" class="sidebar" aria-label="Resource categories">
+        <div class="sidebar-heading">
+          <span>EXPLORE THE ATLAS</span
+          ><span class="live-dot" aria-hidden="true"></span>
+        </div>
+        <nav aria-label="Categories">
+          <a
+            class="category-link all-category"
+            href="{{BASE}}index.html#results"
+            data-category="all"
+            ><span>All resources</span
+            ><span class="nav-count">{{ENTRY_COUNT}}</span></a
+          >
+          <p class="nav-label">BROWSE BY CATEGORY</p>
+          {{CATEGORY_NAV}}
+        </nav>
+        <div class="sidebar-note">
+          <strong>Make your next idea concrete.</strong>
+          <p>
+            Find a library, explore a pattern, or discover a new way to build.
+          </p>
+          <a href="{{BASE}}about.html"
+            >About the directory <span aria-hidden="true">↗</span></a
+          >
+        </div>
+      </aside>
+      <main>
+        <section class="hero" aria-labelledby="hero-title">
+          <div class="hero-copy">
+            <span class="eyebrow"
+              ><span aria-hidden="true">✳</span> THE COMMUNITY RESOURCE
+              DIRECTORY</span
+            >
+            <h1 id="hero-title">
+              Small decisions.<br /><span>Endless possibilities.</span>
+            </h1>
+            <p class="hero-description">
+              Find what people build with Jev. Explore tools, libraries,
+              experiments and ideas from across the TypeSafe ecosystem.
+            </p>
+            <div class="hero-meta">
+              <span class="snapshot-dot" aria-hidden="true"></span>Updated ·
+              {{SNAPSHOT_DATE}}<a href="{{BASE}}about.html"
+                >About the directory <span aria-hidden="true">↗</span></a
+              >
+            </div>
+          </div>
+          <div class="hero-art" aria-hidden="true">
+            <div class="orbit orbit-one"></div>
+            <div class="orbit orbit-two"></div>
+            <div class="orbit orbit-three"></div>
+            <div class="decision-core">
+              j<span>ev</span><small>typed decisions</small>
+            </div>
+            <span class="orbit-node node-choice">Choice <span>↗</span></span
+            ><span class="orbit-node node-score">Score <span>0.94</span></span
+            ><span class="orbit-node node-noul">Noul <span>✓</span></span>
+            <span class="art-label">STATE → JUDGMENT → SOFTWARE</span>
+          </div>
+        </section>
+        <section class="stat-strip" aria-label="Catalog statistics">
+          <div>
+            <strong>{{ENTRY_COUNT}}</strong><span>unique resources</span>
+          </div>
+          <div>
+            <strong>{{CATEGORY_COUNT}}</strong><span>clear categories</span>
+          </div>
+          <div>
+            <strong>{{SUBCATEGORY_COUNT}}</strong
+            ><span>focused subcategories</span>
+          </div>
+          <div>
+            <strong>Yours</strong><span>save a personal reading list</span>
+          </div>
+        </section>
+        <section class="directory" aria-labelledby="directory-heading">
+          <div class="section-heading">
+            <div>
+              <span class="eyebrow">YOUR NEXT BUILD STARTS HERE</span>
+              <h2 id="directory-heading">Explore the collection</h2>
+            </div>
+            <a class="download-link" href="{{BASE}}data/entries.json" download
+              >Download catalog <span aria-hidden="true">↓</span></a
+            >
+          </div>
+          <form
+            id="filters"
+            class="filters"
+            role="search"
+            aria-label="Filter resources"
+          >
+            <div class="search-field">
+              <label class="sr-only" for="search"
+                >Search names and descriptions</label
+              ><span aria-hidden="true">⌕</span
+              ><input
+                id="search"
+                type="search"
+                placeholder="Find a tool, idea, or workflow…"
+                autocomplete="off"
+              /><kbd aria-hidden="true">/</kbd>
+            </div>
+            <div class="select-field">
+              <label for="category-filter">Category</label
+              ><select id="category-filter">
+                <option value="all">All categories</option>
+                {{CATEGORY_OPTIONS}}
+              </select>
+            </div>
+            <div class="select-field">
+              <label for="subcategory-filter">Subcategory</label
+              ><select id="subcategory-filter">
+                <option value="all">All subcategories</option>
+              </select>
+            </div>
+          </form>
+          <div class="results-toolbar">
+            <p id="result-count" role="status" aria-live="polite">
+              {{INITIAL_COUNT}}
+            </p>
+            <div class="result-actions">
+              <button
+                id="saved-filter"
+                class="text-button"
+                type="button"
+                aria-pressed="false"
+              >
+                ♡ Saved <span id="saved-count">0</span></button
+              ><label class="sr-only" for="sort">Sort resources</label
+              ><select id="sort" aria-label="Sort resources">
+                <option value="name">A → Z</option>
+                <option value="stars" selected>Most stars</option>
+                <option value="category">By category</option></select
+              ><button
+                id="view-toggle"
+                class="icon-button"
+                type="button"
+                aria-label="Switch to card view"
+                aria-pressed="false"
+                title="Switch to card view"
+              >
+                ☷</button
+              ><button id="clear-filters" class="text-button" type="button">
+                Reset
+              </button>
+            </div>
+          </div>
+          <p id="app-error" class="error-message" role="alert" hidden></p>
+          <p id="breadcrumb" class="filter-breadcrumb"></p>
+          <div id="results" class="results-container" tabindex="-1">
+            {{INITIAL_ENTRIES}}
+          </div>
+          <div id="empty-state" class="empty-state" hidden>
+            <span aria-hidden="true">⌕</span>
+            <h3>No matches this time</h3>
+            <p>
+              Try a broader search or reset your filters to explore the full
+              collection.
+            </p>
+            <button id="empty-reset" class="primary-button" type="button">
+              Reset filters
+            </button>
+          </div>
+          <div class="load-more">
+            <button id="load-more" class="primary-button" type="button" hidden>
+              Load 48 more resources
+            </button>
+            <p id="page-status">{{PAGE_STATUS}}</p>
+          </div>
+          <noscript
+            ><div class="no-script">
+              <strong>Browse without JavaScript.</strong> Use the category menu
+              to open a complete static category page, or
+              <a
+                href="https://github.com/nicolas-found42/awesome-typesafe-jev/blob/main/README.md"
+                >read the complete Markdown catalog</a
+              >. Live search and saved resources need JavaScript.
+            </div></noscript
+          >
+        </section>
+        <footer class="site-footer">
+          <p><strong>Jev Atlas</strong> · Built from community knowledge.</p>
+          <p>
+            Resource descriptions are informational. Inclusion is not an
+            endorsement. <a href="{{BASE}}about.html">About the directory</a> ·
+            <a
+              href="https://github.com/nicolas-found42/awesome-typesafe-jev/issues"
+              >Suggest a correction</a
+            >
+          </p>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>

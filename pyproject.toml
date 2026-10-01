@@ -1,0 +1,26 @@
+[project]
+name = "awesome-typesafe-jev"
+version = "1.0.0"
+description = "A reproducible, source-backed Jev resource directory"
+requires-python = ">=3.14"
+dependencies = ["markdown-it-py==4.2.0", "PyYAML==6.0.3"]
+
+[dependency-groups]
+dev = ["pytest==9.1.1", "ruff==0.16.10", "ty==0.0.84"]
+
+[tool.ruff]
+target-version = "py314"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I", "UP", "B"]
+
+[tool.ty.environment]
+python-version = "3.14"
+
+[tool.ty.src]
+include = ["scripts", "tests"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = [".", "scripts"]

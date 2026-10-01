@@ -1,0 +1,21 @@
+{
+  "name": "awesome-typesafe-jev",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=26.10.0"
+  },
+  "scripts": {
+    "test": "playwright test",
+    "test:browser": "playwright test",
+    "format": "prettier --write site tests/*.mjs playwright.config.mjs package.json",
+    "format:check": "prettier --check site tests/*.mjs playwright.config.mjs package.json",
+    "check:js": "node --check site/app.js"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.13.0",
+    "@playwright/test": "1.63.0",
+    "prettier": "3.9.9"
+  }
+}
