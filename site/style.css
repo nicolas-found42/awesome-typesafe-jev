@@ -1541,3 +1541,91 @@ main {
 .resource-table th:last-child {
   width: 40px;
 }
+
+/* Native disclosures keep tables available without JavaScript. */
+.group-controls {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin: 0 0 16px;
+  color: var(--muted);
+  font-size: 13px;
+}
+.group-controls[hidden] {
+  display: none;
+}
+.result-category {
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: var(--surface);
+  margin-bottom: 18px;
+  overflow: clip;
+}
+.result-category > summary,
+.result-subcategory > summary {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 18px 20px;
+  cursor: pointer;
+  font-weight: 700;
+  list-style: none;
+}
+.result-category > summary::-webkit-details-marker,
+.result-subcategory > summary::-webkit-details-marker {
+  display: none;
+}
+.result-category > summary::before,
+.result-subcategory > summary::before {
+  content: "▸";
+  color: var(--accent);
+}
+.result-category[open] > summary::before,
+.result-subcategory[open] > summary::before {
+  content: "▾";
+}
+.result-category > summary:hover,
+.result-subcategory > summary:hover {
+  background: var(--hero);
+}
+.group-count {
+  margin-left: auto;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 400;
+  text-align: right;
+}
+.category-content {
+  padding: 0 12px 12px;
+}
+.result-subcategory {
+  border-top: 1px solid var(--border);
+}
+.result-subcategory > summary {
+  padding: 16px 8px;
+  font-size: 14px;
+}
+.result-subcategory .resource-grid {
+  padding-bottom: 16px;
+}
+@media (max-width: 600px) {
+  .result-category > summary {
+    padding: 14px 12px;
+    font-size: 14px;
+  }
+  .category-content {
+    padding: 0 8px 8px;
+  }
+  .group-count {
+    max-width: 95px;
+    flex-shrink: 0;
+    font-size: 11px;
+  }
+}
+/* Explicit hiding also covers WebKit's nested open-disclosure rendering. */
+.result-category:not([open]) > .category-content,
+.result-subcategory:not([open]) > .resource-table,
+.result-subcategory:not([open]) > .resource-grid {
+  display: none;
+}

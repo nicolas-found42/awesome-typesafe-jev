@@ -17,6 +17,8 @@
   let cardView = false;
   let saved = new Set();
   let pendingFrame;
+  let groupContext = "";
+  const groupState = new Map();
   function readPreference(key, fallback) {
     try {
       return JSON.parse(localStorage.getItem(key)) ?? fallback;
@@ -261,7 +263,12 @@
       ? category
       : "all";
     const sub = catalog.subcategories.find(
-      (sub) => sub.id === params.get("subcategory"),
+      (sub) =>
+        sub.id ===
+        (params.get("subcategory") ||
+          (location.hash.startsWith("#subcategory-")
+            ? location.hash.slice(13)
+            : "")),
     );
     if (sub) controls.category.value = sub.parent;
     subcategoryOptions(sub ? sub.id : "all");
@@ -286,12 +293,15 @@
       params.set("sort", controls.sort.value);
     if (savedOnly) params.set("saved", "1");
     const queryString = params.toString();
+    const hash =
+      location.hash.startsWith("#subcategory-") &&
+      location.hash !== `#subcategory-${controls.subcategory.value}`
+        ? "#results"
+        : location.hash;
     history.replaceState(
       null,
       "",
-      location.pathname +
-        (queryString ? "?" + queryString : "") +
-        location.hash,
+      location.pathname + (queryString ? "?" + queryString : "") + hash,
     );
   }
   function render(updateLocation = true) {
@@ -323,11 +333,87 @@
           (b.stars ?? -1) - (a.stars ?? -1) || a.name.localeCompare(b.name),
       );
     const shown = filtered.slice(0, visible);
-    if (cardView) {
-      const grid = element("div", "resource-grid");
-      for (const entry of shown) grid.append(card(entry));
-      $("results").replaceChildren(grid);
-    } else $("results").replaceChildren(table(shown));
+    const context = JSON.stringify([
+      words,
+      controls.category.value,
+      controls.subcategory.value,
+      controls.sort.value,
+      savedOnly,
+    ]);
+    if (context !== groupContext) groupState.clear();
+    else
+      for (const group of $("results").querySelectorAll("details"))
+        groupState.set(group.id, group.open);
+    groupContext = context;
+    const categoryCounts = new Map();
+    const subCounts = new Map();
+    for (const entry of filtered) {
+      categoryCounts.set(
+        entry.category,
+        (categoryCounts.get(entry.category) || 0) + 1,
+      );
+      subCounts.set(
+        entry.subcategory,
+        (subCounts.get(entry.subcategory) || 0) + 1,
+      );
+    }
+    const grouped = new Map();
+    for (const entry of shown) {
+      if (!grouped.has(entry.category)) grouped.set(entry.category, new Map());
+      const subs = grouped.get(entry.category);
+      if (!subs.has(entry.subcategory)) subs.set(entry.subcategory, []);
+      subs.get(entry.subcategory).push(entry);
+    }
+    const fragment = document.createDocumentFragment();
+    function disclosure(id, className, title, count, total) {
+      const group = element("details", className);
+      group.id = id;
+      group.open = groupState.get(id) ?? true;
+      const summary = element("summary");
+      summary.append(
+        element("span", "", title),
+        element(
+          "span",
+          "group-count",
+          `${count.toLocaleString()} of ${total.toLocaleString()} matches`,
+        ),
+      );
+      group.append(summary);
+      return group;
+    }
+    for (const [category, subs] of grouped) {
+      const count = [...subs.values()].reduce(
+        (total, items) => total + items.length,
+        0,
+      );
+      const parent = disclosure(
+        `category-${category}`,
+        "result-category",
+        catalog.categories.find((c) => c.id === category).name,
+        count,
+        categoryCounts.get(category),
+      );
+      const content = element("div", "category-content");
+      for (const [sub, items] of subs) {
+        const group = disclosure(
+          `subcategory-${sub}`,
+          "result-subcategory",
+          catalog.subcategories.find((s) => s.id === sub).name,
+          items.length,
+          subCounts.get(sub),
+        );
+        if (cardView) {
+          const grid = element("div", "resource-grid");
+          for (const entry of items) grid.append(card(entry));
+          group.append(grid);
+        } else group.append(table(items));
+        content.append(group);
+      }
+      parent.append(content);
+      fragment.append(parent);
+    }
+    $("results").replaceChildren(fragment);
+    $("group-controls").hidden = shown.length === 0;
     const parentName =
       controls.category.value === "all"
         ? "All resources"
@@ -384,6 +470,15 @@
     cancelAnimationFrame(pendingFrame);
     pendingFrame = requestAnimationFrame(() => render());
   }
+  for (const [id, open] of [
+    ["expand-groups", true],
+    ["collapse-groups", false],
+  ]) {
+    $(id).addEventListener("click", () => {
+      for (const group of $("results").querySelectorAll("details"))
+        group.open = open;
+    });
+  }
   controls.search.addEventListener("input", scheduleRender);
   controls.category.addEventListener("change", () => {
     if (catalog) subcategoryOptions();
@@ -414,11 +509,25 @@
   $("clear-filters").addEventListener("click", reset);
   $("empty-reset").addEventListener("click", reset);
   $("load-more").addEventListener("click", () => {
-    const previous = visible;
+    const previous = new Set(
+      [...$("results").querySelectorAll("[data-entry]")].map(
+        (node) => node.dataset.entry,
+      ),
+    );
     visible += pageSize;
     render(false);
-    const next = $("results").querySelectorAll("[data-entry]")[previous];
-    if (next) next.querySelector("a").focus({ preventScroll: true });
+    const next = [...$("results").querySelectorAll("[data-entry]")].find(
+      (node) => !previous.has(node.dataset.entry),
+    );
+    if (next) {
+      for (
+        let parent = next.parentElement;
+        parent;
+        parent = parent.parentElement
+      )
+        if (parent instanceof HTMLDetailsElement) parent.open = true;
+      next.querySelector("a").focus({ preventScroll: true });
+    }
   });
   document.addEventListener("click", (event) => {
     if (!(event.target instanceof Element)) return;
@@ -457,6 +566,16 @@
         );
         $("saved-count").textContent = String(saved.size);
       }
+    }
+  });
+  addEventListener("hashchange", () => {
+    if (catalog && location.hash.startsWith("#subcategory-")) {
+      parseUrl();
+      visible = pageSize;
+      render(false);
+      document
+        .getElementById(location.hash.slice(1))
+        ?.scrollIntoView({ block: "start" });
     }
   });
   addEventListener("popstate", () => {

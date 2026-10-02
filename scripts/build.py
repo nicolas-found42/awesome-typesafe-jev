@@ -71,14 +71,17 @@ def readme(data):
         "",
     ]
     for category in data["categories"]:
-        lines += [f'<a id="category-{category["id"]}"></a>', "", f"## {category['name']}", ""]
+        lines += [
+            f'<details id="category-{category["id"]}">',
+            f"<summary><strong>{escape(category['name'])}</strong> · {counts[category['id']]:,} resources</summary>",
+            "",
+        ]
         for sub in data["subcategories"]:
             if sub["parent"] != category["id"]:
                 continue
             lines += [
-                f'<a id="subcategory-{sub["id"]}"></a>',
-                "",
-                f"### {sub['name']}",
+                f'<details id="subcategory-{sub["id"]}">',
+                f"<summary><strong>{escape(sub['name'])}</strong> · {subcounts[sub['id']]:,} resources</summary>",
                 "",
                 "| Resource | Repository stars | Description |",
                 "| :--- | ---: | :--- |",
@@ -89,7 +92,8 @@ def readme(data):
                         f"| [{md_text(entry['name'])}](<{entry['url']}>) | "
                         f"{stars(entry)} | {md_text(entry['description'])} |"
                     )
-            lines.append("")
+            lines += ["", "</details>", ""]
+        lines += ["</details>", ""]
     lines += [
         "## Contributing",
         "",
@@ -145,6 +149,34 @@ def resource_table(entries, sub_lookup, category_lookup):
         + "".join(rows)
         + "</tbody></table>"
     )
+
+
+def grouped_tables(items, matching, sub_lookup, category_lookup):
+    """Keep every row inside native category and subcategory disclosures."""
+    category_counts = Counter(e["category"] for e in matching)
+    sub_counts = Counter(e["subcategory"] for e in matching)
+    grouped = {}
+    for entry in items:
+        grouped.setdefault(entry["category"], {}).setdefault(entry["subcategory"], []).append(entry)
+    parts = []
+    for category, groups in grouped.items():
+        shown = sum(len(group) for group in groups.values())
+        parts.append(
+            f'<details class="result-category" id="category-{category}" open>'
+            f"<summary><span>{escape(category_lookup[category]['name'])}</span>"
+            f'<span class="group-count">{shown:,} of {category_counts[category]:,} matches</span></summary>'
+            '<div class="category-content">'
+        )
+        for sub, group in groups.items():
+            parts.append(
+                f'<details class="result-subcategory" id="subcategory-{sub}" open>'
+                f"<summary><span>{escape(sub_lookup[sub]['name'])}</span>"
+                f'<span class="group-count">{len(group):,} of {sub_counts[sub]:,} matches</span></summary>'
+                + resource_table(group, sub_lookup, category_lookup)
+                + "</details>"
+            )
+        parts.append("</div></details>")
+    return "".join(parts)
 
 
 def website(data):
@@ -206,20 +238,9 @@ def website(data):
                 e["url"],
             ),
         )[:48]
-        if default != "all":
-            markup = []
-            for sub in data["subcategories"]:
-                if sub["parent"] == default:
-                    group = [e for e in selected if e["subcategory"] == sub["id"]]
-                    markup.append(
-                        f'<h3 class="static-subheading" id="subcategory-{sub["id"]}">{escape(sub["name"])} <span>{len(group):,}</span></h3>'
-                        + resource_table(group, sub_lookup, category_lookup)
-                    )
-            initial_markup = "".join(markup)
-            initial_count = len(selected)
-        else:
-            initial_markup = resource_table(initial, sub_lookup, category_lookup)
-            initial_count = len(initial)
+        shown = selected if default != "all" else initial
+        initial_markup = grouped_tables(shown, selected, sub_lookup, category_lookup)
+        initial_count = len(shown)
         nav = []
         for category in data["categories"]:
             identifier = category["id"]

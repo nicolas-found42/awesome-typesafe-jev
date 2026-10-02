@@ -264,31 +264,31 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 - [Contributing](#contributing)
 - [Build and verification](#build-and-verification)
 
-<a id="category-start"></a>
+<details id="category-start">
+<summary><strong>Getting started &amp; official resources</strong> · 80 resources</summary>
 
-## Getting started & official resources
-
-<a id="subcategory-start-overview"></a>
-
-### Product & introductions
+<details id="subcategory-start-overview">
+<summary><strong>Product &amp; introductions</strong> · 2 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
 | [https://x.com/typesafeai/status/2099929926921290071 — official “hello world” launch post; 69 · 25 · ](<https://x.com/typesafeai/status/2099929926921290071>) | — | 2.2K · 273K views. |
 | [TypeSafe on X](<https://x.com/typesafeai>) | — | Product and research updates. |
 
-<a id="subcategory-start-quickstarts"></a>
+</details>
 
-### Quick starts
+<details id="subcategory-start-quickstarts">
+<summary><strong>Quick starts</strong> · 2 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
 | [Getting started with the TypeSafe skill — skill](<https://github.com/typesafe-ai/skills>) | 2,510 | Two-step starter: install the official typesafe-ai agent skill, then ask your coding agent to use /typesafe-ai to find slow, costly LLM calls that Jev could replace. |
 | [Quick start](<https://docs.typesafe.ai/introduction/quickstart>) | — | First request through the Playground, cURL, the Python SDK, or a coding agent. |
 
-<a id="subcategory-start-api"></a>
+</details>
 
-### API & reference
+<details id="subcategory-start-api">
+<summary><strong>API &amp; reference</strong> · 5 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -298,9 +298,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Model limitations](<https://github.com/valentynkit/awesome-jev-5/blob/6de83e771360d767a7fdb178ac8425497c77ee7f/taxonomy/critique-limits.md>) | — | All guides · Model limitations |
 | [System One API](<https://docs.typesafe.ai/api>) | — | Official HTTP endpoint for Jev: POST a state and typed questions to /v1/systemone and get typed answers with probabilities and confidence back. |
 
-<a id="subcategory-start-primitives"></a>
+</details>
 
-### Primitives & concepts
+<details id="subcategory-start-primitives">
+<summary><strong>Primitives &amp; concepts</strong> · 9 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -314,9 +315,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [System One](<https://docs.typesafe.ai/concepts/system-one>) | — | What separates a fast decision model from a text-generating LLM, and where each fits. |
 | [TypeSafe patterns](<https://docs.typesafe.ai/patterns>) | — | Official guide to architectural patterns for building with Jev: speculative fan-out, confidence-gated routing, composite scoring and intent routing. |
 
-<a id="subcategory-start-console"></a>
+</details>
 
-### Console & official tools
+<details id="subcategory-start-console">
+<summary><strong>Console &amp; official tools</strong> · 3 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -324,9 +326,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [TypeSafe console](<https://console.typesafe.ai/>) | — | Official console for creating API keys, trying Jev in the playground and inspecting live requests. |
 | [TypeSafe interactive demos](<https://docs.typesafe.ai/demos>) | — | Official interactive examples of what can be built with Jev, including the smart-home assistant demo. |
 
-<a id="subcategory-start-projects"></a>
+</details>
 
-### More projects & source code
+<details id="subcategory-start-projects">
+<summary><strong>More projects &amp; source code</strong> · 22 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -353,9 +356,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [演示与示例](<https://github.com/valentynkit/awesome-jev-5/blob/6de83e771360d767a7fdb178ac8425497c77ee7f/taxonomy/demos.md>) | — | 入门示例和在线试用 |
 | [网关与集成](<https://github.com/valentynkit/awesome-jev-5/blob/6de83e771360d767a7fdb178ac8425497c77ee7f/taxonomy/integrations.md>) | — | 服务商接入和框架集成 |
 
-<a id="subcategory-start-posts"></a>
+</details>
 
-### More posts & discussions
+<details id="subcategory-start-posts">
+<summary><strong>More posts &amp; discussions</strong> · 6 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -366,17 +370,19 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [https://x.com/typesafeai/status/2100706455523561909 — behind-the-scenes launch-video clip, with chie](<https://x.com/typesafeai/status/2100706455523561909>) | — | f of staff keeping Diogo on track; 14 · 5 · 260 · 32K views. |
 | [https://x.com/typesafeai/status/2100747035746193598 — TypeSafe quote-posts OpenRouter’s beta launch;](<https://x.com/typesafeai/status/2100747035746193598>) | — | Jev is framed as a typed decision model rather than a text generator; 21 · 34 · 1K · 79K views. |
 
-<a id="subcategory-start-packages"></a>
+</details>
 
-### More packages & releases
+<details id="subcategory-start-packages">
+<summary><strong>More packages &amp; releases</strong> · 1 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
 | [typesafe-sdk-js — npm](<https://www.npmjs.com/package/@typesafe-ai/sdk>) | — | Official JavaScript and TypeScript client for Node.js, published on npm as @typesafe-ai/sdk. |
 
-<a id="subcategory-start-references"></a>
+</details>
 
-### More guides & websites
+<details id="subcategory-start-references">
+<summary><strong>More guides &amp; websites</strong> · 30 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -411,13 +417,15 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Workflow evals](<https://evals.typesafe.ai>) | — | Compares many models running four real workflows as decomposed questions versus as a single prompt. |
 | [www.completeskeptic.com](<https://www.completeskeptic.com/>) | — | Founder writing \| https://www.completeskeptic.com/ (cited from HN: “Bitterest Lesson”, jaggedness essay) |
 
-<a id="category-sdks"></a>
+</details>
 
-## SDKs & client libraries
+</details>
 
-<a id="subcategory-sdks-python"></a>
+<details id="category-sdks">
+<summary><strong>SDKs &amp; client libraries</strong> · 1,129 resources</summary>
 
-### Python clients
+<details id="subcategory-sdks-python">
+<summary><strong>Python clients</strong> · 60 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -482,9 +490,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [venice-py Decisions resource — docs](<https://venice-docs.sbang.dev/>) | — | Unofficial async Python SDK for Venice.ai with a Decisions resource for Venice's System One models, returning validated noul, choice and score answers with probabilities. |
 | [venice-py Decisions resource — repo](<https://github.com/sethbang/venice-py>) | — | Unofficial async Python SDK for Venice.ai with a Decisions resource for Venice's System One models, returning validated noul, choice and score answers with probabilities. |
 
-<a id="subcategory-sdks-javascript"></a>
+</details>
 
-### JavaScript & TypeScript
+<details id="subcategory-sdks-javascript">
+<summary><strong>JavaScript &amp; TypeScript</strong> · 81 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -570,9 +579,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [typesafe-sdk-js — docs](<https://docs.typesafe.ai/sdk/javascript>) | — | Official JavaScript and TypeScript client for Node.js, published on npm as @typesafe-ai/sdk. |
 | [zod-jev](<https://github.com/jomatsu/zod-jev>) | 8 | Adds semantic checks to Zod 4 schemas, such as whether a body contains personal data or a price is plausible, while shape rules stay in Zod and results come back as ordinary Zod issues. |
 
-<a id="subcategory-sdks-go"></a>
+</details>
 
-### Go clients
+<details id="subcategory-sdks-go">
+<summary><strong>Go clients</strong> · 86 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -663,9 +673,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [typesafeai-systemone-jev-go](<https://github.com/mheers/typesafeai-systemone-jev-go>) | 1 | Typed Go client for the TypeSafe System One API (Jev): structured questions and answers your code can act on. Community SDK, MIT. |
 | [withzombies/jev-go](<https://github.com/withzombies/jev-go>) | 1 | Typed answers from Jev, in idiomatic Go. |
 
-<a id="subcategory-sdks-rust"></a>
+</details>
 
-### Rust clients
+<details id="subcategory-sdks-rust">
+<summary><strong>Rust clients</strong> · 60 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -730,9 +741,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [typesafe-sdk-rust](<https://github.com/zchee/typesafe-sdk-rust>) | 1 | Unofficial async Rust SDK for the TypeSafe AI System One API: typed questions via #\[derive(QuestionSet)\], a port of typesafe-sdk-python. |
 | [typesafeai-sdk-rust-community](<https://github.com/community-ports/typesafeai-sdk-rust-community>) | 0 | Rust port of the official Python SDK that adds derive macros for typed questions, typed function-call routing, composite scoring, a mock transport for tests and concurrent batch and rerank helpers. |
 
-<a id="subcategory-sdks-dotnet"></a>
+</details>
 
-### .NET clients
+<details id="subcategory-sdks-dotnet">
+<summary><strong>.NET clients</strong> · 30 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -767,9 +779,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [TypeSafeSDK](<https://github.com/DotNetVibeCoderz/Vibe_SDK>) | — | SDK & Decision Frameworks: An unofficial .NET client that POSTs state and typed questions to TypeSafe /v1/systemone. The parent repo also contains unrelated SDK dumps. |
 | [ZeroAlloc.Jev](<https://github.com/ZeroAlloc-Net/ZeroAlloc.Jev>) | 0 | Unofficial .NET client for TypeSafe's Jev System One API — source-generated, Native AOT, allocation-conscious |
 
-<a id="subcategory-sdks-apple"></a>
+</details>
 
-### Swift & Apple platforms
+<details id="subcategory-sdks-apple">
+<summary><strong>Swift &amp; Apple platforms</strong> · 16 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -790,9 +803,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [typesafe-sdk-swift](<https://github.com/above-the-fold/typesafe-sdk-swift>) | 0 | The unofficial Swift library for the TypeSafe API |
 | [typesafe-sdk-swift](<https://github.com/marandaneto/typesafe-sdk-swift>) | 1 | Experimental Swift 6 port of the official JS and Python SDKs using Swift Package Manager, async/await and URLSession, with no third-party runtime dependencies across Apple platforms. |
 
-<a id="subcategory-sdks-other-languages"></a>
+</details>
 
-### Other languages & clients
+<details id="subcategory-sdks-other-languages">
+<summary><strong>Other languages &amp; clients</strong> · 102 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -899,9 +913,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [verdict4s](<https://github.com/softinio/verdict4s>) | 0 | A Scala 3 client for TypeSafe AI's Jev, a decision model that answers typed questions about your program state with choices, scores and calibrated probabilities instead of text. |
 | [zio-typesafe-ai](<https://github.com/jamesward/zio-typesafe-ai>) | 5 | Scala 3 and ZIO client for the Jev System One API that asks several typed Noul, Choice and Score questions in one round-trip and returns the answers as a NamedTuple shaped like the questions. |
 
-<a id="subcategory-sdks-projects"></a>
+</details>
 
-### More projects & source code
+<details id="subcategory-sdks-projects">
+<summary><strong>More projects &amp; source code</strong> · 689 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -1595,18 +1610,20 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [← Back to Awesome Jev](<https://github.com/Li-Evan/awesome-jev#community-sdks>) | 24 | Listed by the source without a separate description. |
 | [← Back to Awesome Jev](<https://github.com/Li-Evan/awesome-jev#official-sdks-and-tools>) | 24 | Listed by the source without a separate description. |
 
-<a id="subcategory-sdks-posts"></a>
+</details>
 
-### More posts & discussions
+<details id="subcategory-sdks-posts">
+<summary><strong>More posts &amp; discussions</strong> · 2 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
 | [jod](<https://x.com/mmateonunez/status/2100612699394597125>) | — | Semantic schemas over TypeSafe's Jev — validate the state locally, then project typed answers. |
 | [typesafe\_sdk](<https://x.com/elixirforum/status/2100495661942677648>) | — | An idiomatic, type-safe Elixir port of the official TypeScript AI SDK (ai / ai-sdk) providing unified LLM integrations, streaming text and structured outputs, tool calling, and agentic workflows. Jev is their current flagship model and is the first System One model. |
 
-<a id="subcategory-sdks-references"></a>
+</details>
 
-### More guides & websites
+<details id="subcategory-sdks-references">
+<summary><strong>More guides &amp; websites</strong> · 3 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -1614,13 +1631,15 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [kraayenjon/awesome-jev website](<https://madewithjev.com>) | — | A curated list of Jev use cases, projects, SDKs, and resources. Jev is TypeSafe AI's System One model for fast, typed decisions in software — Choice, Score, and Noul with calibrated probabilities. |
 | [yzfly/awesome-jev-zh website](<https://code.jiangshu.ai/awesome-jev-zh/>) | — | Jev / TypeSafe System One 中文精选列表：官方资料、SDK、爆款应用、Agent 工具、开源复现与独立评测，附中文上手指南，每日自动收录 GitHub 热门项目。 |
 
-<a id="category-integrations"></a>
+</details>
 
-## Frameworks & integrations
+</details>
 
-<a id="subcategory-integrations-frameworks"></a>
+<details id="category-integrations">
+<summary><strong>Frameworks &amp; integrations</strong> · 335 resources</summary>
 
-### AI frameworks
+<details id="subcategory-integrations-frameworks">
+<summary><strong>AI frameworks</strong> · 75 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -1700,9 +1719,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [TanStack AI Jev adapter — npm](<https://www.npmjs.com/package/@tanstack/ai-typesafe>) | — | Adapter package for TanStack AI that exposes Jev through a decide() call with typed Choice, Score, and yes/no questions, talking to the API over plain fetch with no TypeSafe SDK dependency. |
 | [TanStack AI Jev adapter — repo](<https://github.com/TanStack/ai>) | 3,123 | Adapter package for TanStack AI that exposes Jev through a decide() call with typed Choice, Score, and yes/no questions, talking to the API over plain fetch with no TypeSafe SDK dependency. |
 
-<a id="subcategory-integrations-platforms"></a>
+</details>
 
-### Developer platforms
+<details id="subcategory-integrations-platforms">
+<summary><strong>Developer platforms</strong> · 9 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -1716,9 +1736,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [TypeSafe UI — app](<https://ui.jev.works>) | — | Community shadcn-style React components and interface blocks for TypeSafe projects, built on Base UI and Tailwind v4, with a Next.js component browser, source previews and an interactive Lab. |
 | [TypeSafe UI — app 2](<https://typesafe-ui.vercel.app>) | — | Community shadcn-style React components and interface blocks for TypeSafe projects, built on Base UI and Tailwind v4, with a Next.js component browser, source previews and an interactive Lab. |
 
-<a id="subcategory-integrations-automation"></a>
+</details>
 
-### Workflow automation
+<details id="subcategory-integrations-automation">
+<summary><strong>Workflow automation</strong> · 14 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -1737,17 +1758,19 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [n8n-nodes-jev-classification — npm](<https://www.npmjs.com/package/n8n-nodes-jev-classification>) | — | Community node for n8n that classifies, scores and checks text with Jev like the built-in Text Classifier, with one branch per category plus Needs Review, parallel requests and multi-item batching. |
 | [n8n-nodes-typesafe](<https://github.com/Biztactix/n8n-nodes-typesafe>) | 0 | Community node for n8n that sends workflow text or JSON with named noul, choice and score questions to the System One API and returns typed answers to route on, plus a List Models operation. |
 
-<a id="subcategory-integrations-databases"></a>
+</details>
 
-### Databases & backends
+<details id="subcategory-integrations-databases">
+<summary><strong>Databases &amp; backends</strong> · 1 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
 | [pg-jev — app](<https://pgjev.com>) | — | PostgreSQL extension for WHERE jev(t, '...') queries that batches 20 rows per request and reports how accuracy falls with larger batches. |
 
-<a id="subcategory-integrations-projects"></a>
+</details>
 
-### More projects & source code
+<details id="subcategory-integrations-projects">
+<summary><strong>More projects &amp; source code</strong> · 148 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -1900,9 +1923,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Yao decision role](<https://github.com/YaoApp/yao/tree/main/agent/decision>) | — | Yao Agents adds a decision role connector for typed decision requests, with TypeSafe AI's jev-latest as a preset provider alongside the chat models. |
 | [← Back to Awesome Jev](<https://github.com/Li-Evan/awesome-jev#framework-adapters>) | 24 | Listed by the source without a separate description. |
 
-<a id="subcategory-integrations-posts"></a>
+</details>
 
-### More posts & discussions
+<details id="subcategory-integrations-posts">
+<summary><strong>More posts &amp; discussions</strong> · 18 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -1925,17 +1949,19 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [system-one](<https://x.com/lukerramsden/status/2101474124292047201>) | — | Generic TypeScript library for System 1 typed-decision models that works with Jev, Cloudflare AI Gateway and Laya, with Promise and Effect-native clients. |
 | [TrainLCD Jev rerank](<https://x.com/tinykitten8/status/2100618835443453969>) | — | Pull request adding Jev to station-suggestion reranking in the TrainLCD transit app. |
 
-<a id="subcategory-integrations-videos"></a>
+</details>
 
-### More videos & channels
+<details id="subcategory-integrations-videos">
+<summary><strong>More videos &amp; channels</strong> · 1 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
 | [Jev Spring Boot Starter — video](<https://www.youtube.com/watch?v=fq_nYo4BnrY>) | — | Community Spring Boot 4 starter that auto-configures an injectable JevClient on Spring MVC and RestClient, so a Java service can ask Jev typed questions after adding one dependency and an API key. |
 
-<a id="subcategory-integrations-packages"></a>
+</details>
 
-### More packages & releases
+<details id="subcategory-integrations-packages">
+<summary><strong>More packages &amp; releases</strong> · 10 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -1950,9 +1976,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [system-one — npm](<https://www.npmjs.com/package/system-one>) | — | Generic TypeScript library for System 1 typed-decision models that works with Jev, Cloudflare AI Gateway and Laya, with Promise and Effect-native clients. |
 | [typesafe-jev-cli](<https://www.npmjs.com/package/typesafe-jev-cli>) | — | Dependency-free Node.js CLI that sends Choice, Noul and Score evaluations to Jev through OpenRouter's decisions endpoint, including batch evaluation of many text files. |
 
-<a id="subcategory-integrations-references"></a>
+</details>
 
-### More guides & websites
+<details id="subcategory-integrations-references">
+<summary><strong>More guides &amp; websites</strong> · 59 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -2016,13 +2043,15 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [xerify](<https://verhex.github.io/xerify/>) | — | Verify before you trust. Cross-provider verification with LLMs and Jev. CLI, library & MCP. |
 | [Yao decision role — app](<https://yaoagents.com>) | — | Yao Agents adds a decision role connector for typed decision requests, with TypeSafe AI's jev-latest as a preset provider alongside the chat models. |
 
-<a id="category-access"></a>
+</details>
 
-## Model access & gateways
+</details>
 
-<a id="subcategory-access-gateways"></a>
+<details id="category-access">
+<summary><strong>Model access &amp; gateways</strong> · 159 resources</summary>
 
-### API gateways & proxies
+<details id="subcategory-access-gateways">
+<summary><strong>API gateways &amp; proxies</strong> · 114 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -2141,18 +2170,20 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [ZenMux TypeSafe System One API](<https://zenmux.ai/docs/api/typesafe/systemone>) | — | API reference for calling TypeSafe System One evaluation requests with Jev through the ZenMux model gateway. |
 | [ZenMux TypeSafe System One API — repo](<https://github.com/ZenMux/zenmux-doc/blob/main/docs_source/en/api/typesafe/systemone.md>) | — | API reference for calling TypeSafe System One evaluation requests with Jev through the ZenMux model gateway. |
 
-<a id="subcategory-access-cloud"></a>
+</details>
 
-### Cloud platforms
+<details id="subcategory-access-cloud">
+<summary><strong>Cloud platforms</strong> · 2 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
 | [Cloudflare Jev model catalog](<https://github.com/cloudflare/cloudflare-docs/blob/production/src/content/catalog-models/typesafe-jev.json>) | — | Cloudflare's model catalog entry for typesafe/jev, listing Jev for Noul, Choice and Score evaluation at $0.042 per million input tokens and free output, with a worked example. |
 | [Cloudflare Jev model catalog — docs](<https://developers.cloudflare.com>) | — | Cloudflare's model catalog entry for typesafe/jev, listing Jev for Noul, Choice and Score evaluation at $0.042 per million input tokens and free output, with a worked example. |
 
-<a id="subcategory-access-serving"></a>
+</details>
 
-### Hosting & serving
+<details id="subcategory-access-serving">
+<summary><strong>Hosting &amp; serving</strong> · 7 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -2164,9 +2195,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [endpoint](<https://github.com/us/jev-local/blob/56bfc2a96543f2fc6a4d4227460a2c17553c6e24/src/jevlocal/app.py#L1>) | 3 | us/jev-local — Local Jev-compatible evaluation server: POST /v1/systemone with typed noul/choice/score, open weights, no waitlist · endpoint · Python |
 | [Nemotron Diffusion Decision Lab](<https://github.com/pst2154/Nemotron_Jev>) | 12 | Experimental container that serves the dense Nemotron-Labs-Diffusion-14B model behind a TypeSafe-shaped API, with a browser explorer for Choice, Noul and Score distributions. |
 
-<a id="subcategory-access-projects"></a>
+</details>
 
-### More projects & source code
+<details id="subcategory-access-projects">
+<summary><strong>More projects &amp; source code</strong> · 20 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -2191,9 +2223,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [ThinkAI decision API](<https://github.com/top-think/think-ai>) | 9 | PHP SDK for the ThinkAI model aggregation service whose decision() resource evaluates Jev noul and choice questions (model jev-latest) next to chat, image and voice APIs. |
 | [← Back to Awesome Jev](<https://github.com/Li-Evan/awesome-jev#model-access>) | 24 | Listed by the source without a separate description. |
 
-<a id="subcategory-access-posts"></a>
+</details>
 
-### More posts & discussions
+<details id="subcategory-access-posts">
+<summary><strong>More posts &amp; discussions</strong> · 4 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -2202,9 +2235,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Jev on the Venice API — announcement](<https://x.com/AskVenice/status/2101095644467511578>) | — | Demo marking Jev's beta launch on the Venice API, classifying 24,000 Hacker News posts into 12 categories in about 2 minutes. |
 | [TypeSafe console — announcement](<https://x.com/typesafeai/status/2101786156572823624>) | — | Official console for creating API keys, trying Jev in the playground and inspecting live requests. |
 
-<a id="subcategory-access-references"></a>
+</details>
 
-### More guides & websites
+<details id="subcategory-access-references">
+<summary><strong>More guides &amp; websites</strong> · 12 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -2221,13 +2255,15 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Pollinations Jev API — app](<https://pollinations.ai>) | — | The Pollinations gen API serves Jev as typesafe/jev-1.13 through a typed POST /alpha/decisions endpoint and Chat Completions, plus an Ask Jev MCP server with a jev\_decide tool. |
 | [Pollinations Jev API — docs](<https://gen.pollinations.ai/docs>) | — | The Pollinations gen API serves Jev as typesafe/jev-1.13 through a typed POST /alpha/decisions endpoint and Chat Completions, plus an Ask Jev MCP server with a jev\_decide tool. |
 
-<a id="category-observability"></a>
+</details>
 
-## Observability & operations
+</details>
 
-<a id="subcategory-observability-tracing"></a>
+<details id="category-observability">
+<summary><strong>Observability &amp; operations</strong> · 31 resources</summary>
 
-### Tracing & debugging
+<details id="subcategory-observability-tracing">
+<summary><strong>Tracing &amp; debugging</strong> · 28 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -2260,37 +2296,42 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Vessel System One adapter — app](<https://vesselproxy.app/>) | — | Adapter in Vessel, a local-first observability proxy for LLM traffic, that captures TypeSafe System One requests sent directly or via OpenRouter Decisions and shows their typed questions, answers and token usage. |
 | [Vessel System One adapter — repo](<https://github.com/spenceclark/Vessel>) | — | Adapter in Vessel, a local-first observability proxy for LLM traffic, that captures TypeSafe System One requests sent directly or via OpenRouter Decisions and shows their typed questions, answers and token usage. |
 
-<a id="subcategory-observability-cost"></a>
+</details>
 
-### Cost & usage tracking
+<details id="subcategory-observability-cost">
+<summary><strong>Cost &amp; usage tracking</strong> · 1 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
 | [genai-prices TypeSafe provider](<https://github.com/pydantic/genai-prices/blob/main/prices/providers/typesafe.yml>) | — | Pydantic library for calculating LLM API costs, extended with TypeSafe pricing so Jev calls to /v1/systemone are matched and billed per input token. |
 
-<a id="subcategory-observability-projects"></a>
+</details>
 
-### More projects & source code
+<details id="subcategory-observability-projects">
+<summary><strong>More projects &amp; source code</strong> · 1 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
 | [← Back to Awesome Jev](<https://github.com/Li-Evan/awesome-jev#observability>) | 24 | Listed by the source without a separate description. |
 
-<a id="subcategory-observability-references"></a>
+</details>
 
-### More guides & websites
+<details id="subcategory-observability-references">
+<summary><strong>More guides &amp; websites</strong> · 1 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
 | [Using TypeSafe's Jev for evals](<https://langfuse.com/blog/2026-09-18-using-typesafes-jev-for-evals>) | — | Grades agent runs with a Noul, a Score, and a Choice in one request and writes the results back as Langfuse scores. |
 
-<a id="category-agents"></a>
+</details>
 
-## Agents & orchestration
+</details>
 
-<a id="subcategory-agents-routing"></a>
+<details id="category-agents">
+<summary><strong>Agents &amp; orchestration</strong> · 1,475 resources</summary>
 
-### Model & task routing
+<details id="subcategory-agents-routing">
+<summary><strong>Model &amp; task routing</strong> · 139 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -2434,9 +2475,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [unhardcoded-engine decision protocol](<https://github.com/genlayerlabs/unhardcoded-engine/blob/main/docs/DECISION-PROTOCOL.md>) | — | Decision-model routing in unhardcoded-engine, a pure-Lua policy algebra for LLM provider selection, that partitions candidates by protocol so Jev-style decision requests only route and fail over among decision models. |
 | [unhardcoded-engine decision protocol — repo](<https://github.com/genlayerlabs/unhardcoded-engine>) | — | Decision-model routing in unhardcoded-engine, a pure-Lua policy algebra for LLM provider selection, that partitions candidates by protocol so Jev-style decision requests only route and fail over among decision models. |
 
-<a id="subcategory-agents-memory"></a>
+</details>
 
-### Memory & context
+<details id="subcategory-agents-memory">
+<summary><strong>Memory &amp; context</strong> · 111 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -2552,9 +2594,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [winnow](<https://github.com/GhalebDweikat/winnow>) | 100 | Context sieve for Claude Code that judges every large Read, Bash or Grep result and swaps blocks it is confident you do not need for a three-line stub that restores the full text on demand. |
 | [Yoshi](<https://github.com/compozy/yoshi>) | 28 | Proof-of-concept local proxy for Claude Code and Codex in which Jev judges which conversation history is still needed above a size gate, and Yoshi drops the rest while keeping the tool protocol intact. |
 
-<a id="subcategory-agents-harnesses"></a>
+</details>
 
-### Harnesses & orchestration
+<details id="subcategory-agents-harnesses">
+<summary><strong>Harnesses &amp; orchestration</strong> · 47 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -2606,9 +2649,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Tidepool](<https://github.com/tidepool-heavy-industries/tidepool>) | 12 | Agent harness built on a live Haskell notebook where agents write procedures that mix commands, delegation and Jev judgments, then install them as tools or hooks; 322 questions returned in 351 ms. |
 | [yunusemrejr/yunuspi](<https://github.com/yunusemrejr/yunuspi>) | 2 | Yunus Pi is a heavily customized harness experience built on top of a forked Pi harness (pi.dev). It uses patches, extensions, skills, and custom provider configs to customize the overall experience. It uses advanced machine learning, Jev, Cactus Needle 3 and similar technologies. |
 
-<a id="subcategory-agents-tools"></a>
+</details>
 
-### Tool selection & execution
+<details id="subcategory-agents-tools">
+<summary><strong>Tool selection &amp; execution</strong> · 83 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -2696,9 +2740,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [vit-cerny/jev-browser-kit](<https://github.com/vit-cerny/jev-browser-kit>) | 1 | Give any MCP-capable LLM harness an on-demand real-browser search tool (TypeSafe Jev) with per-run timing and cost tracking. |
 | [wahahaorg/jev-mcp](<https://github.com/wahahaorg/jev-mcp>) | 1 | jev-mcp turns browser-use/jev-ultrafast into one local, session-aware MCP server for fast read-only product research. Jev selects an action and observed target from a DOM snapshot; |
 
-<a id="subcategory-agents-assistants"></a>
+</details>
 
-### Autonomous assistants
+<details id="subcategory-agents-assistants">
+<summary><strong>Autonomous assistants</strong> · 62 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -2765,9 +2810,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [system1-agents](<https://github.com/ThinkFlowLab/system1-agents>) | 136 | System 1 decision models (Jev, Laya, Cua-S1) as brain for agents: Browser use, computer use, games and robotics |
 | [typesafe-minesweeper](<https://github.com/sunyifeng11111/typesafe-minesweeper>) | 0 | Autonomous Minesweeper powered by TypeSafe System One and local constraint inference |
 
-<a id="subcategory-agents-projects"></a>
+</details>
 
-### More projects & source code
+<details id="subcategory-agents-projects">
+<summary><strong>More projects &amp; source code</strong> · 959 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -3731,9 +3777,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [zocomputer-jev — README](<https://github.com/EthanThatOneKid/zocomputer-jev/blob/391464aa765c16af41a3e83d811773811b283d6c/README.md>) | 0 | This versioned Zo Rule describes Jev as an internal decision delegate: Zo treats typed answers as evidence while retaining implementation, authorization, and side-effect control locally. |
 | [zurfyx/jev-browser-skill-demo](<https://github.com/zurfyx/jev-browser-skill-demo>) | 1 | Let Jev, TypeSafe's ~100ms decision model, drive your browser. A plug-and-play skill for Claude Code and Codex. |
 
-<a id="subcategory-agents-posts"></a>
+</details>
 
-### More posts & discussions
+<details id="subcategory-agents-posts">
+<summary><strong>More posts &amp; discussions</strong> · 24 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -3762,17 +3809,19 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [typesafe-mcp — demo](<https://x.com/CindyTaylo82399/status/2101873521077157968>) | — | Go MCP server that exposes one evaluate tool so Claude Code, Claude Desktop, Codex and pi can send state plus Choice, Score or Noul questions to Jev and branch on the probabilities. |
 | [typesafe-mcp — discussion](<https://www.reddit.com/r/mcp/comments/1wjfjn3/if_you_have_access_to_the_new_typesafe_ai_try/>) | — | Go MCP server that exposes one evaluate tool so Claude Code, Claude Desktop, Codex and pi can send state plus Choice, Score or Noul questions to Jev and branch on the probabilities. |
 
-<a id="subcategory-agents-videos"></a>
+</details>
 
-### More videos & channels
+<details id="subcategory-agents-videos">
+<summary><strong>More videos &amp; channels</strong> · 1 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
 | [Treg + Jev automation](<https://www.youtube.com/watch?v=o4Vi5uBZYH0>) | — | Demo of pairing Jev with Treg, an OpenRouter-style registry of agent tools, to build automation workflows where Jev makes the quick decisions. |
 
-<a id="subcategory-agents-packages"></a>
+</details>
 
-### More packages & releases
+<details id="subcategory-agents-packages">
+<summary><strong>More packages &amp; releases</strong> · 5 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -3782,9 +3831,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Sniff Test — npm](<https://www.npmjs.com/package/snifftest>) | — | Prose linter for Markdown and plain text that runs countable regex rules locally and sends paragraphs to Jev for judgment rules such as restating closings, stacked hedges or clichés, one probability per rule. |
 | [typesafe-jev-mcp — crates](<https://crates.io/crates/typesafe-jev-mcp>) | — | Rust MCP server with one evaluate tool that lets Claude Code, Codex, OpenCode, Antigravity or Cursor send a state and typed questions to Jev and get noul, choice or score answers with probabilities. |
 
-<a id="subcategory-agents-references"></a>
+</details>
 
-### More guides & websites
+<details id="subcategory-agents-references">
+<summary><strong>More guides &amp; websites</strong> · 44 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -3833,22 +3883,25 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Tonone Jev decision layer — app](<https://second.tonone.ai>) | — | Shared decision layer for a 426-skill AI company toolkit that answers yes/no, one-of-N and rubric questions with Jev, or a local TF-IDF scorer when no key is set, and gates skill manifests. |
 | [VCPToolBox Jev modules — app](<https://www.vcptoolbox.com>) | — | The VCP agent infrastructure adds Jev modules for context pruning, fold filtering, reranking and a semantic tool-call experiment, with multi-key rotation over TypeSafe or OpenRouter. |
 
-<a id="category-skills"></a>
+</details>
 
-## MCP servers & agent skills
+</details>
 
-<a id="subcategory-skills-mcp"></a>
+<details id="category-skills">
+<summary><strong>MCP servers &amp; agent skills</strong> · 93 resources</summary>
 
-### MCP servers
+<details id="subcategory-skills-mcp">
+<summary><strong>MCP servers</strong> · 2 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
 | [jevon](<https://github.com/douglance/jevon>) | — | Rust command-line interface and MCP server for TypeSafe Jev typed decisions. |
 | [System 1 MCP](<https://pypi.org/project/system1-mcp/>) | — | MCP server that exposes Jev-powered guard, judge, verify, and score tools for AI agents. |
 
-<a id="subcategory-skills-packs"></a>
+</details>
 
-### Skill collections
+<details id="subcategory-skills-packs">
+<summary><strong>Skill collections</strong> · 33 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -3886,17 +3939,19 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [TypeSafe use cases showcase — project](<https://github.com/ashadeepa/typesafe-showcase>) | 1 | Collection of small runnable demos of typed judgments, including a Bluff card game, parallel ticket classification, a citation checker, a passive-aggressiveness meter, and Sentence Jenga. |
 | [typesafe-wiki skill](<https://github.com/chujianyun/skills/tree/main/skills/typesafe-wiki>) | — | Claude Code skill that packages an offline wiki of TypeSafe AI's docs, covering the Jev System One model, the Choice/Score/Noul primitives, patterns and the SDKs and HTTP API. |
 
-<a id="subcategory-skills-plugins"></a>
+</details>
 
-### Agent plugins
+<details id="subcategory-skills-plugins">
+<summary><strong>Agent plugins</strong> · 1 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
 | [caliber-jev-compaction](<https://github.com/caliber-ai-org/ai-setup/tree/master/plugin/caliber-jev-compaction>) | — | Claude Code function-hook plugin shipped with Caliber that replaces built-in context compaction with Jev decisions, loaded from disk as unbundled TypeScript. |
 
-<a id="subcategory-skills-projects"></a>
+</details>
 
-### More projects & source code
+<details id="subcategory-skills-projects">
+<summary><strong>More projects &amp; source code</strong> · 36 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -3937,9 +3992,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [TypeSafe AI Playground](<https://github.com/nickthompson480/typesafe-ai-playground>) | 3 | Community playground with 110 runnable Jev examples in 22 categories, including 41 A/B comparisons, where you inspect each example's input and questions, edit them and run them against the API. |
 | [typesafe-jev-dojo](<https://github.com/lafollett-labs/typesafe-jev-dojo>) | 0 | Live canvas demos of Jev in six scenes: a model-tier router, batched ticket triage, inbox queue, a Tetris agent, parallel swarms and a 40-task Jev-vs-Claude gauntlet. |
 
-<a id="subcategory-skills-posts"></a>
+</details>
 
-### More posts & discussions
+<details id="subcategory-skills-posts">
+<summary><strong>More posts &amp; discussions</strong> · 6 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -3950,17 +4006,19 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Jev experiments — discussion](<https://news.ycombinator.com/item?id=49757995>) | — | Twenty-one low-latency demo apps, such as reranking 50 candidates in a single request. |
 | [JEV Playground](<https://x.com/mac_eth/status/2101701798968840703>) | — | Simple web playground for trying Jev by entering text context and asking Noul, Choice or Score questions. |
 
-<a id="subcategory-skills-videos"></a>
+</details>
 
-### More videos & channels
+<details id="subcategory-skills-videos">
+<summary><strong>More videos &amp; channels</strong> · 1 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
 | [Jev intro + 50 open-source use cases](<https://www.youtube.com/watch?v=im_hLbl6ldU>) | — | Intro to Jev plus a tour of 50 MIT-licensed demos, from ticket routing to fraud scoring and moderation, each comparing Jev with an OpenAI model on cost and speed. |
 
-<a id="subcategory-skills-references"></a>
+</details>
 
-### More guides & websites
+<details id="subcategory-skills-references">
+<summary><strong>More guides &amp; websites</strong> · 14 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -3979,13 +4037,15 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [TypeSafe AI Playground — app](<https://jev.works>) | — | Community web playground with 110 editable Jev use cases, games, dilemmas, and model challenges, covering classification, A/B input comparisons, conversation routing, field extraction, and code-policy checks. |
 | [TypeSafe Jev project knowledge resource](<https://gist.github.com/pjburnhill/adf8d28efcad9df037bfdece178ef965>) | — | Long reference gist meant as baseline context for AI assistants and projects working with Jev, covering concepts, primitives, strengths, limitations, use cases, and practical patterns. |
 
-<a id="category-coding"></a>
+</details>
 
-## Coding & developer tools
+</details>
 
-<a id="subcategory-coding-review"></a>
+<details id="category-coding">
+<summary><strong>Coding &amp; developer tools</strong> · 1,328 resources</summary>
 
-### Code review & verification
+<details id="subcategory-coding-review">
+<summary><strong>Code review &amp; verification</strong> · 44 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -4034,9 +4094,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [tracecheck](<https://github.com/bmccarn/tracecheck>) | 2 | Evidence-backed code review for AI coding agents, powered by Jev. |
 | [typesafeai-review](<https://github.com/rbalch/typesafeai-review>) | 0 | Code reviewer shipped as a dev dependency where code runs the checks and slices the diff, Jev answers narrow typed questions per hunk, and code composes the verdict, score and findings. |
 
-<a id="subcategory-coding-agents"></a>
+</details>
 
-### Coding agents
+<details id="subcategory-coding-agents">
+<summary><strong>Coding agents</strong> · 74 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -4115,9 +4176,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Varro Jev auto-approve — app](<https://marketplace.visualstudio.com/items?itemName=koltyakov.varro>) | — | VS Code workbench for OpenCode that can auto-approve agent permission requests by asking Jev to allow, ask or reject, alongside destructive and manipulation checks. |
 | [Varro Jev auto-approve — repo](<https://github.com/koltyakov/varro>) | — | VS Code workbench for OpenCode that can auto-approve agent permission requests by asking Jev to allow, ask or reject, alongside destructive and manipulation checks. |
 
-<a id="subcategory-coding-search"></a>
+</details>
 
-### Semantic code search
+<details id="subcategory-coding-search">
+<summary><strong>Semantic code search</strong> · 31 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -4153,9 +4215,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [System One Search](<https://github.com/cpaczek/s1s>) | 0 | Code navigation tool that uses Jev and repository evidence to find the files behind a question, map a subject, trace it across files and report what a harness has examined, answering only with real paths and references. |
 | [System One Search — app](<https://s1s.iar.dev>) | — | Code navigation tool that uses Jev and repository evidence to find the files behind a question, map a subject, trace it across files and report what a harness has examined, answering only with real paths and references. |
 
-<a id="subcategory-coding-terminal"></a>
+</details>
 
-### Terminal & CLI tools
+<details id="subcategory-coding-terminal">
+<summary><strong>Terminal &amp; CLI tools</strong> · 23 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -4183,9 +4246,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [watfile](<https://github.com/jexp/watfile>) | 2 | CLI that sorts PDFs and text files into category folders with one Jev Choice per document, reporting per-category probabilities and confidence, with a pluggable backend for a local Laya model. |
 | [watfile — pypi](<https://pypi.org/project/watfile/>) | — | CLI that sorts PDFs and text files into category folders with one Jev Choice per document, reporting per-category probabilities and confidence, with a pluggable backend for a local Laya model. |
 
-<a id="subcategory-coding-git-ci"></a>
+</details>
 
-### Git, CI & testing
+<details id="subcategory-coding-git-ci">
+<summary><strong>Git, CI &amp; testing</strong> · 33 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -4223,9 +4287,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [TinaCMS issue deduper](<https://github.com/tinacms/tinacms/blob/main/.github/scripts/dedupe-issue.mts>) | — | GitHub Actions script in the TinaCMS repo that checks each new issue against all open issues with Jev and, when confident, comments with the original and adds a Duplicate label. |
 | [TinaCMS issue deduper — app](<https://tina.io>) | — | GitHub Actions script in the TinaCMS repo that checks each new issue against all open issues with Jev and, when confident, comments with the original and adds a Duplicate label. |
 
-<a id="subcategory-coding-routing"></a>
+</details>
 
-### Coding model routers
+<details id="subcategory-coding-routing">
+<summary><strong>Coding model routers</strong> · 106 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -4336,9 +4401,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Xum auto model routing](<https://github.com/coder/xum/blob/main/src/constants/autoModelRouting.ts>) | — | Xum, a desktop coding-agent multiplexer, sends each Auto-mode prompt to an evaluation model for a single difficulty-tier choice and runs the turn on that tier's model and thinking level. |
 | [Xum auto model routing — app](<https://xum.coder.com>) | — | Xum, a desktop coding-agent multiplexer, sends each Auto-mode prompt to an evaluation model for a single difficulty-tier choice and runs the turn on that tier's model and thinking level. |
 
-<a id="subcategory-coding-context"></a>
+</details>
 
-### Coding context & memory
+<details id="subcategory-coding-context">
+<summary><strong>Coding context &amp; memory</strong> · 65 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -4408,9 +4474,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [sofar typed-judge calibration — repo](<https://github.com/usesofar/sofar>) | — | Script in an event-sourced memory tool for coding agents that calibrates Jev against the project record, judging whether decisions are standing constraints and whether they bear on tasks, then reporting agreement and calibration. |
 | [windows-save-token-jev-setup](<https://github.com/455-dIAO/windows-save-token-jev-setup>) | 4 | Windows Codex skill that installs and verifies save-token-jev hooks, where a PreCompact hook has Jev pick the tool records worth keeping and a SessionStart hook restores them after native compaction. |
 
-<a id="subcategory-coding-projects"></a>
+</details>
 
-### More projects & source code
+<details id="subcategory-coding-projects">
+<summary><strong>More projects &amp; source code</strong> · 833 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -5248,9 +5315,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [zttp invariant advise — repo](<https://github.com/srdjan/zttp>) | — | Option in zttp, a Zig TypeScript runtime and agent compiler, where zttp invariant author --advise asks Jev whether a plain-language statement matches the selected invariant kind; the answer is advisory, never proof. |
 | [← Back to Awesome Jev](<https://github.com/Li-Evan/awesome-jev#browse-by-scenario>) | 24 | Listed by the source without a separate description. |
 
-<a id="subcategory-coding-posts"></a>
+</details>
 
-### More posts & discussions
+<details id="subcategory-coding-posts">
+<summary><strong>More posts &amp; discussions</strong> · 42 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -5297,17 +5365,19 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Supercov — discussion](<https://www.reddit.com/r/AI_Agents/comments/1wjlac0/jev_to_fix_slop_code/>) | — | CLI that tells a coding agent what to fix and what to test by scoring code-quality properties with Jev, about a cent per megabyte of source, and turning uncovered paths from your existing test command into targets. |
 | [Supercov — discussion 2](<https://www.reddit.com/r/typesafe_ai/comments/1wjlvlx/jev_code_quality_for_codex/>) | — | CLI that tells a coding agent what to fix and what to test by scoring code-quality properties with Jev, about a cent per megabyte of source, and turning uncovered paths from your existing test command into targets. |
 
-<a id="subcategory-coding-videos"></a>
+</details>
 
-### More videos & channels
+<details id="subcategory-coding-videos">
+<summary><strong>More videos &amp; channels</strong> · 1 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
 | [Jev Realtime Code Check](<https://www.youtube.com/watch?v=goVDTUd7-J0>) | — | Short demo of a VS Code and Cursor extension that checks local Git changes against 370 Markdown coding rules with Jev on every save, in under 2 seconds. |
 
-<a id="subcategory-coding-packages"></a>
+</details>
 
-### More packages & releases
+<details id="subcategory-coding-packages">
+<summary><strong>More packages &amp; releases</strong> · 10 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -5322,9 +5392,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [pi-jev-guard](<https://www.npmjs.com/package/pi-jev-guard>) | — | Pi extension that validates model output with Jev, either on demand through a tool, command and review skill, or automatically via a guarded provider that holds replies until Jev approves. |
 | [pi-jev-router — npm](<https://www.npmjs.com/package/@sugarforever/pi-jev-router>) | — | Pi coding-agent extension that asks Jev, before each prompt enters the session, whether to continue, fork, or start a new session so tangents stay out of a long context. |
 
-<a id="subcategory-coding-references"></a>
+</details>
 
-### More guides & websites
+<details id="subcategory-coding-references">
+<summary><strong>More guides &amp; websites</strong> · 66 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -5395,13 +5466,15 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [WrongStack Jev decisions — app](<https://wrongstack.com/>) | — | Jev integration in the WrongStack coding agent: an agent-callable jev tool for bounded judgments, Jev-backed dispatch among specialist agents, skill suggestion and memory recall, configurable per feature. |
 | [Xal TypeSafe plugin — app](<https://xal.sh>) | — | Built-in TypeSafe decision provider for the Xal terminal coding harness; one switch turns on Jev-driven context compaction, Jev read-ahead prefetching and a general-purpose classify tool. |
 
-<a id="category-browser"></a>
+</details>
 
-## Browser, mobile & computer use
+</details>
 
-<a id="subcategory-browser-web"></a>
+<details id="category-browser">
+<summary><strong>Browser, mobile &amp; computer use</strong> · 416 resources</summary>
 
-### Web browser agents
+<details id="subcategory-browser-web">
+<summary><strong>Web browser agents</strong> · 119 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -5525,9 +5598,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [WebBrain System One agent — app](<https://webbrain.one>) | — | WebBrain, an open browser agent for Chrome and Firefox, uses Jev as a fast classifier and judge in its agent loop, with redacted evidence and confidence thresholds. |
 | [WebMCP side panel](<https://x.com/sarah_edo/status/2102025642862600634>) | — | Chrome extension side panel that drives any site's WebMCP tools: on every keystroke Jev picks the relevant page tool, fills in its arguments and shows how sure it is, demoed on grocery shopping. |
 
-<a id="subcategory-browser-desktop"></a>
+</details>
 
-### Desktop & computer use
+<details id="subcategory-browser-desktop">
+<summary><strong>Desktop &amp; computer use</strong> · 43 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -5575,9 +5649,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Yappy](<https://yappy.biz/jev/>) | — | Voice agent for macOS that uses Jev to pick each computer-use step and calls a chat model only for typing; measured 1m 54s and $0.24 on a job application versus a competitor's 13m 14s and $4.24. |
 | [Yappy — app](<https://yappy.biz>) | — | Voice agent for macOS that uses Jev to pick each computer-use step and calls a chat model only for typing; measured 1m 54s and $0.24 on a job application versus a competitor's 13m 14s and $4.24. |
 
-<a id="subcategory-browser-mobile"></a>
+</details>
 
-### Mobile automation
+<details id="subcategory-browser-mobile">
+<summary><strong>Mobile automation</strong> · 16 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -5598,9 +5673,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [touchpress](<https://github.com/wobsoriano/touchpress>) | 28 | End-to-end testing library for mobile apps whose act step can be driven by an evaluation model such as Jev, picking each move from the actions the current screen offers. |
 | [touchpress — demo](<https://x.com/wobsoriano/status/2100813615410634997>) | — | End-to-end testing library for mobile apps whose act step can be driven by an evaluation model such as Jev, picking each move from the actions the current screen offers. |
 
-<a id="subcategory-browser-tooling"></a>
+</details>
 
-### Browser infrastructure
+<details id="subcategory-browser-tooling">
+<summary><strong>Browser infrastructure</strong> · 6 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -5611,9 +5687,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [sdk](<https://github.com/vinilana/jev-browser/blob/7d608732aa586465dc612c1d54c8b83b6ddc7625/src/infrastructure/models/jev.ts#L1>) | 4 | vinilana/jev-browser — English Português (Brasil) · sdk · TypeScript |
 | [skhlo/rlcd-brwsr](<https://github.com/skhlo/rlcd-brwsr>) | 1 | Fast browser execution for Pi using Jev classification and Chrome DevTools CLI |
 
-<a id="subcategory-browser-projects"></a>
+</details>
 
-### More projects & source code
+<details id="subcategory-browser-projects">
+<summary><strong>More projects &amp; source code</strong> · 197 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -5815,9 +5892,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [wrangle — jev.rb](<https://github.com/ericboehs/wrangle/blob/8af07e2853913574cf0619ac608fa31e7183ae4a/lib/wrangle/jev.rb>) | 0 | Wrangle’s Jev adapter asks Jev to pick one observed browser control; the surrounding project handles the action. |
 | [yibie/pi-jev-browser](<https://github.com/yibie/pi-jev-browser>) | 1 | Isolated Playwright browser for pi, driven by Jev typed decisions through the TypeSafe API or the model pi already has configured. |
 
-<a id="subcategory-browser-posts"></a>
+</details>
 
-### More posts & discussions
+<details id="subcategory-browser-posts">
+<summary><strong>More posts &amp; discussions</strong> · 14 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -5836,17 +5914,19 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [PlayJev — discussion](<https://www.reddit.com/r/LLM/comments/1wli7sk/i_built_browser_automation_with_jev_and_its/>) | — | TypeScript library that adds plain-English browser automation to Playwright, like Stagehand but with Jev choosing clicks, navigation, form fills, and options instead of a generative LLM. |
 | [unclutter](<https://x.com/thekitze/status/2100595129874817340>) | — | WXT browser extension: Jev-powered page clutter removal with reusable template rules. |
 
-<a id="subcategory-browser-videos"></a>
+</details>
 
-### More videos & channels
+<details id="subcategory-browser-videos">
+<summary><strong>More videos &amp; channels</strong> · 1 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
 | [rtrvr.ai](<https://www.youtube.com/watch?v=JsNQwFB9N1Q>) | — | Tests Jev inside the rtrvr.ai browser agent on real web tasks, reporting where it worked, where it struggled, and how it will sit next to larger models. |
 
-<a id="subcategory-browser-packages"></a>
+</details>
 
-### More packages & releases
+<details id="subcategory-browser-packages">
+<summary><strong>More packages &amp; releases</strong> · 4 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -5855,9 +5935,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Navvi — pypi](<https://pypi.org/project/navvi/>) | — | MCP server that turns a browser task into a reusable scraper: Jev chooses among controls and fields found by code, and Navvi saves selectors, fingerprints and a navigation trace for replay and repair. |
 | [Public Browser Jev loop — npm](<https://www.npmjs.com/package/public-browser>) | — | Example loop on the Public Browser Chrome library in which one Jev call per step picks the next action from the page's accessibility refs and gpt-4.1-nano writes text only for type actions, run on six benchmark cards. |
 
-<a id="subcategory-browser-references"></a>
+</details>
 
-### More guides & websites
+<details id="subcategory-browser-references">
+<summary><strong>More guides &amp; websites</strong> · 16 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -5878,13 +5959,15 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [rtrvr.ai — project](<https://rtrvr.ai>) | — | Tests Jev inside the rtrvr.ai browser agent on real web tasks, reporting where it worked, where it struggled, and how it will sit next to larger models. |
 | [thevibeworks/awesome-typesafe-jev website](<https://thevibeworks.github.io/awesome-typesafe-jev/>) | — | Curated list of projects built on TypeSafe's Jev model, read before listed. With media and our own measurements. Not affiliated with TypeSafe AI. |
 
-<a id="category-robotics"></a>
+</details>
 
-## Robotics & simulation
+</details>
 
-<a id="subcategory-robotics-drones"></a>
+<details id="category-robotics">
+<summary><strong>Robotics &amp; simulation</strong> · 101 resources</summary>
 
-### Drones & flight
+<details id="subcategory-robotics-drones">
+<summary><strong>Drones &amp; flight</strong> · 4 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -5893,9 +5976,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [jev-drone — app](<https://jev-drone.vercel.app>) | — | Camera-only autonomous quadrotor that flies a five-station MuJoCo obstacle course, with Jev deciding what each situation means at about 2.5 Hz from depth-derived scene features while time-critical control stays in code. |
 | [jev-drone — demo](<https://x.com/RomanSlack1/status/2100335978229690683>) | — | Camera-only autonomous quadrotor that flies a five-station MuJoCo obstacle course, with Jev deciding what each situation means at about 2.5 Hz from depth-derived scene features while time-critical control stays in code. |
 
-<a id="subcategory-robotics-embodied"></a>
+</details>
 
-### Embodied robots
+<details id="subcategory-robotics-embodied">
+<summary><strong>Embodied robots</strong> · 17 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -5917,9 +6001,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Voice-commanded robot arm](<https://x.com/crypto_dev_1/status/2102081831042416935>) | — | Spanish demo of a robot arm that understands spoken commands like open your hand, go to the ceiling or stretch as far as you can, with Jev mapping phrases to arm actions. |
 | [Zero-shot robot arm tasks](<https://x.com/tarat_211/status/2100625153109504483>) | — | Robot arm demo where you give a goal in plain English and Jev chains a set of hardcoded motion primitives to carry it out, with no training. |
 
-<a id="subcategory-robotics-simulation"></a>
+</details>
 
-### Simulation environments
+<details id="subcategory-robotics-simulation">
+<summary><strong>Simulation environments</strong> · 9 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -5933,9 +6018,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [MOSS × Jev](<https://github.com/metrox-eth/moss-jev>) | — | Browser 3D replay of the MOSS litter-picking rover where Jev chose each manipulation step in MuJoCo runs, such as picking up a can or retrying a missed grasp. |
 | [MOSS × Jev — app](<https://metrox-eth.github.io/moss-jev/>) | — | Browser 3D replay of the MOSS litter-picking rover where Jev chose each manipulation step in MuJoCo runs, such as picking up a can or retrying a missed grasp. |
 
-<a id="subcategory-robotics-projects"></a>
+</details>
 
-### More projects & source code
+<details id="subcategory-robotics-projects">
+<summary><strong>More projects &amp; source code</strong> · 42 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -5982,9 +6068,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [typesafe-jev-traffic-demo](<https://github.com/trycatchkamal/typesafe-jev-traffic-demo>) | 1 | TypeSafe Jev ecosystem repository. |
 | [typesafe-playground](<https://github.com/kavehmz/typesafe-playground>) | 13 | Interactive Jev experiments: a 3D driving lab where Jev picks lane and target speed from camera, radar and speed-sign readings, plus a support-message routing preview. |
 
-<a id="subcategory-robotics-posts"></a>
+</details>
 
-### More posts & discussions
+<details id="subcategory-robotics-posts">
+<summary><strong>More posts &amp; discussions</strong> · 18 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -6007,17 +6094,19 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [System 1 + System 2 robot loop](<https://x.com/Jadfyd/status/2101302137884234221>) | — | PyBullet cube-stacking robot where Claude writes the high-level plan and Jev acts as the reflex layer, evaluating simulation states in under 100ms to adapt. |
 | [Traffic-light control](<https://x.com/leojrr/status/2101161666410893328>) | — | City simulation in which Jev controls every traffic light; turning it off raises the average wait time by more than 600%. |
 
-<a id="subcategory-robotics-videos"></a>
+</details>
 
-### More videos & channels
+<details id="subcategory-robotics-videos">
+<summary><strong>More videos &amp; channels</strong> · 1 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
 | [Jev air traffic control at JFK](<https://www.youtube.com/watch?v=MZgAj3OZVPo>) | — | Agent Zero demo of a simulated JFK airport where realtime voice models talk to pilots and Jev makes the judgment behind every clearance. |
 
-<a id="subcategory-robotics-references"></a>
+</details>
 
-### More guides & websites
+<details id="subcategory-robotics-references">
+<summary><strong>More guides &amp; websites</strong> · 10 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -6032,13 +6121,15 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [MOSS — demo](<https://www.showrobotics.ai/moss-jev/>) | — | Open, mostly 3D-printed litter-picking rover with a browser demo in which Jev chooses every step of a pickup (approach, align, grasp, lift, carry, release) on physics recorded in MuJoCo. |
 | [RoboJEV — app](<https://lykycy123.github.io/RoboJEV/>) | — | MuJoCo lab where Jev controls a Franka Panda arm from structured simulator state, first picking an intent and then X/Y/Z directions and a gripper command for pick-and-place, pushing and stacking. |
 
-<a id="category-search"></a>
+</details>
 
-## Search, retrieval & RAG
+</details>
 
-<a id="subcategory-search-rag"></a>
+<details id="category-search">
+<summary><strong>Search, retrieval &amp; RAG</strong> · 193 resources</summary>
 
-### RAG & document retrieval
+<details id="subcategory-search-rag">
+<summary><strong>RAG &amp; document retrieval</strong> · 3 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -6046,9 +6137,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [jselect](<https://github.com/keltokhy/jselect>) | 3 | Python context selector that asks Jev whether each passage in your files or records is useful evidence for a task, then picks diverse verbatim passages with source links within a token budget. |
 | [Qualitative Query](<https://github.com/micahchoo/qualitative-query>) | 1 | Obsidian plugin that answers saved questions with original passages from your notes, then saves them into a note linked back to the sources, without generating an answer. |
 
-<a id="subcategory-search-reranking"></a>
+</details>
 
-### Ranking & reranking
+<details id="subcategory-search-reranking">
+<summary><strong>Ranking &amp; reranking</strong> · 50 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -6103,9 +6195,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [XERJ systemone gate](<https://github.com/xerj-org/xerj/tree/main/benchmarks/systemone-gate>) | — | XERJ, a local AI search engine, exposes a Jev-compatible /v1/systemone endpoint so the off-the-shelf jev-reranker client reranks a search index against it unmodified. |
 | [XERJ systemone gate — app](<https://xerj.org>) | — | XERJ, a local AI search engine, exposes a Jev-compatible /v1/systemone endpoint so the off-the-shelf jev-reranker client reranks a search index against it unmodified. |
 
-<a id="subcategory-search-semantic"></a>
+</details>
 
-### Semantic search
+<details id="subcategory-search-semantic">
+<summary><strong>Semantic search</strong> · 22 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -6132,9 +6225,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [YC startup semantic search](<https://x.com/aaayandev/status/2102137061490794730>) | — | Search engine over 6000+ Y Combinator startups that answers free-form queries (color, niche, competitor, age, image) in under a second, built with Jev for $2.7 in total testing costs. |
 | [zaydmulani09/jevgrep](<https://github.com/zaydmulani09/jevgrep>) | 1 | Instant semantic code search: local ripgrep shortlist, meaning-ranked by TypeSafe Jev via OpenRouter. |
 
-<a id="subcategory-search-web"></a>
+</details>
 
-### Web research
+<details id="subcategory-search-web">
+<summary><strong>Web research</strong> · 19 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -6158,17 +6252,19 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [web-search-plus-mcp — app](<https://websearchplus.xyz>) | — | MCP server that gives agents web search across 15 search and 9 extract providers with original sources; optional, off-by-default Jev confirms news-type searches, scores extracted bodies and fills in missing language. |
 | [webctl — demo](<https://x.com/dorkitude/status/2102194028704092585>) | — | Web search CLI for agents that queries three search backends, has Jev score each result set against the query and goal, and dedupes the high-scoring subset so the agent reads far less. |
 
-<a id="subcategory-search-knowledge"></a>
+</details>
 
-### Knowledge graphs
+<details id="subcategory-search-knowledge">
+<summary><strong>Knowledge graphs</strong> · 1 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
 | [jevgraph](<https://github.com/chenmingtang830/jevgraph>) | 32 | Parses PDF, DOCX, PPTX, or text locally, then asks Jev one closed-set relation question per candidate entity pair and exports a graph with per-edge probabilities and page evidence to JSON, CSV, or Neo4j. |
 
-<a id="subcategory-search-projects"></a>
+</details>
 
-### More projects & source code
+<details id="subcategory-search-projects">
+<summary><strong>More projects &amp; source code</strong> · 67 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -6240,9 +6336,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Wordcell](<https://github.com/hraness/wordcell>) | 14 | Local Markdown knowledge base for coding agents with an optional Jev reranking lane; on SciFact it put a relevant result first for 161 of 300 queries versus 101 with exact search alone. |
 | [Wordcell — docs](<https://github.com/hraness/wordcell/blob/main/docs/reranking.md>) | 14 | Local Markdown knowledge base for coding agents with an optional Jev reranking lane; on SciFact it put a relevant result first for 161 of 300 queries versus 101 with exact search alone. |
 
-<a id="subcategory-search-posts"></a>
+</details>
 
-### More posts & discussions
+<details id="subcategory-search-posts">
+<summary><strong>More posts &amp; discussions</strong> · 16 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -6263,9 +6360,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Tripwire internet scanner](<https://www.reddit.com/r/AI_Agents/comments/1wkusec/building_an_internet_scanner_with_jev/>) | — | Early-access tool that scans Reddit, X, and LinkedIn posts and filters them by concepts defined in natural language instead of keywords. |
 | [Zillow natural-language search](<https://x.com/venturetwins/status/2101341075684434245>) | — | Scans thousands of Zillow listings and classifies them by things the site has no filter for, like architecture, renovation status or distance to freeways, in under 20 seconds for $0.18. |
 
-<a id="subcategory-search-references"></a>
+</details>
 
-### More guides & websites
+<details id="subcategory-search-references">
+<summary><strong>More guides &amp; websites</strong> · 15 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -6285,13 +6383,15 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Tripwire internet scanner — app](<https://tripwire.easytech-agency.net/>) | — | Early-access tool that scans Reddit, X, and LinkedIn posts and filters them by concepts defined in natural language instead of keywords. |
 | [Wordcell — app](<https://wordcell.io>) | — | Local Markdown knowledge base for coding agents with an optional Jev reranking lane; on SciFact it put a relevant result first for 161 of 300 queries versus 101 with exact search alone. |
 
-<a id="category-safety"></a>
+</details>
 
-## Safety, moderation & guardrails
+</details>
 
-<a id="subcategory-safety-injection"></a>
+<details id="category-safety">
+<summary><strong>Safety, moderation &amp; guardrails</strong> · 244 resources</summary>
 
-### Prompt injection & security
+<details id="subcategory-safety-injection">
+<summary><strong>Prompt injection &amp; security</strong> · 33 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -6329,9 +6429,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [SecureAI-Scan AI014 rule — repo](<https://github.com/akanthed/SecureAI-Scan>) | — | Rule in SecureAI-Scan, an offline scanner for LLM, MCP and RAG vulnerabilities, that flags Python code running a dangerous action such as subprocess.run on a TypeSafe confidence score alone without an allowlist. |
 | [traffic-guard](<https://github.com/hemanth/traffic-guard>) | 1 | Zero-dependency reverse-proxy traffic classifier and bot mitigator for Node.js and Python that runs local header-order, velocity, and honeypot checks in under 100 microseconds. |
 
-<a id="subcategory-safety-moderation"></a>
+</details>
 
-### Content moderation
+<details id="subcategory-safety-moderation">
+<summary><strong>Content moderation</strong> · 64 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -6400,9 +6501,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Twitter Jev Guard](<https://github.com/qs-lll/twitter-jev-guard>) | 10 | Chrome and Edge extension that uses Jev to flag low-quality, spam and promotional posts on the X timeline, overlaying a translucent STOP or AD watermark with the probability on the post text. |
 | [ZeroNSFWBot](<https://github.com/mohamadkhoshnava/ZeroNSFWBot>) | 13 | Async Rust Telegram moderation bot that bans NSFW advertisers; images are judged locally, while Jev powers optional bio, topic, ad-guard and language checks on text. |
 
-<a id="subcategory-safety-gating"></a>
+</details>
 
-### Tool & action gates
+<details id="subcategory-safety-gating">
+<summary><strong>Tool &amp; action gates</strong> · 38 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -6445,9 +6547,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Wanaku System One evaluator](<https://github.com/wanaku-ai/wanaku/blob/main/features/evaluator/src/engines/system_one.rs>) | — | Governed action proxy for AI agents that adds a TypeSafe System One evaluator engine, judging intercepted MCP tool calls and conversation history with Noul questions. |
 | [Wanaku System One evaluator — app](<https://wanaku.ai>) | — | Governed action proxy for AI agents that adds a TypeSafe System One evaluator engine, judging intercepted MCP tool calls and conversation history with Noul questions. |
 
-<a id="subcategory-safety-verification"></a>
+</details>
 
-### Output & claim verification
+<details id="subcategory-safety-verification">
+<summary><strong>Output &amp; claim verification</strong> · 6 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -6458,17 +6561,19 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Prisma AIRS CLI redteam judge — repo](<https://github.com/cdot65/prisma-airs-cli>) | — | Command in the Prisma AIRS CLI that re-judges the attack outputs of a red-team scan with Jev and computes an independent attack success rate with confidence intervals and an agreement matrix against AIRS verdicts. |
 | [tweet-factcheck](<https://github.com/lookfwd/jev-fact-checker>) | — | Fact-checks a tweet by retrieving evidence from Wikipedia and having Jev judge the claim-versus-evidence relationship, returning a verdict with confidence and sources, where not enough evidence is a normal outcome. |
 
-<a id="subcategory-safety-policy"></a>
+</details>
 
-### Policy & compliance
+<details id="subcategory-safety-policy">
+<summary><strong>Policy &amp; compliance</strong> · 1 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
 | [Draft rule checker](<https://x.com/Mnilax/status/2101015355133227348>) | — | Jev sits between GPT and the author, rejecting every draft that breaks their rules; the post also covers what happened when Jev went quiet and why a checker needs a default branch for no answer. |
 
-<a id="subcategory-safety-projects"></a>
+</details>
 
-### More projects & source code
+<details id="subcategory-safety-projects">
+<summary><strong>More projects &amp; source code</strong> · 79 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -6552,9 +6657,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [tripwire](<https://github.com/noelzappy/tripwire>) | 3 | AI SDK middleware and OpenAI-compatible proxy that runs seven Jev checks on every LLM response in one ~100 ms call, with YAML policies, confidence-gated block or flag actions, and an eval CLI. |
 | [uberto/jev-test](<https://github.com/uberto/jev-test>) | 1 | Review Kotlin files against From Objects to Functions principles using Jev |
 
-<a id="subcategory-safety-posts"></a>
+</details>
 
-### More posts & discussions
+<details id="subcategory-safety-posts">
+<summary><strong>More posts &amp; discussions</strong> · 13 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -6572,17 +6678,19 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [slop-filter — demo](<https://news.ycombinator.com/item?id=49776507>) | — | Chrome extension that scores every post and comment on X, LinkedIn, Reddit and YouTube for how likely it is AI-written and folds away those over your threshold, with weights you can fit from your own labels. |
 | [YouTube AI-slop filter](<https://x.com/mariojankovic/status/2100934084503519325>) | — | Bring-your-own-key Chrome extension that filters AI slop out of YouTube as you scroll and caches the results. |
 
-<a id="subcategory-safety-packages"></a>
+</details>
 
-### More packages & releases
+<details id="subcategory-safety-packages">
+<summary><strong>More packages &amp; releases</strong> · 1 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
 | [tripwire — npm](<https://www.npmjs.com/package/@noelzappy/tripwire>) | — | AI SDK middleware and OpenAI-compatible proxy that runs seven Jev checks on every LLM response in one ~100 ms call, with YAML policies, confidence-gated block or flag actions, and an eval CLI. |
 
-<a id="subcategory-safety-references"></a>
+</details>
 
-### More guides & websites
+<details id="subcategory-safety-references">
+<summary><strong>More guides &amp; websites</strong> · 9 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -6596,13 +6704,15 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [siege](<https://vnmoorthy.github.io/siege/>) | — | SIEGE: 200 people vs one agent. A typed action gate (TypeSafe System One) that learns from every breach, evaluated by W&B Weave, hardened by a defender loop. Built at CoreWeave Hacks: Agent Loops 2026. |
 | [Stop the Slop — app](<https://mauropello.github.io/stop-the-slop/>) | — | Chrome and Firefox extension that flags AI-generated YouTube scripts with thumbnail badges and sentence heatmaps, scored by a Cloudflare Worker that calls Jev with Gemini or Sapling as fallback. |
 
-<a id="category-data"></a>
+</details>
 
-## Data, classification & extraction
+</details>
 
-<a id="subcategory-data-classification"></a>
+<details id="category-data">
+<summary><strong>Data, classification &amp; extraction</strong> · 218 resources</summary>
 
-### Classification & labeling
+<details id="subcategory-data-classification">
+<summary><strong>Classification &amp; labeling</strong> · 48 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -6655,9 +6765,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [World Monitor Jev headline classifier — app](<https://worldmonitor.app>) | — | Headline classifier in a real-time geopolitical news dashboard that asks jev-1.13.0 for a five-level severity and one of 14 topic categories per headline, validating answers and falling back on failure. |
 | [World Monitor Jev headline classifier — repo](<https://github.com/koala73/worldmonitor>) | 87,060 | Headline classifier in a real-time geopolitical news dashboard that asks jev-1.13.0 for a five-level severity and one of 14 topic categories per headline, validating answers and falling back on failure. |
 
-<a id="subcategory-data-extraction"></a>
+</details>
 
-### Structured extraction
+<details id="subcategory-data-extraction">
+<summary><strong>Structured extraction</strong> · 5 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -6667,9 +6778,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [jeveryword — app](<https://jeveryword.vercel.app>) | — | Dependency-free JavaScript library for field extraction, PII detection, and exact quotes that numbers the words of a text so Jev can pick them, returning original substrings with offsets and probabilities. |
 | [JevSpan](<https://github.com/lzq-0529/jev-span>) | — | Information extraction: zero-shot named entity recognition that splits text at punctuation, asks Jev one Choice over every candidate window per entity type, verifies each nominee with a second Choice (the type, none, mixed or partial) and settles its boundary with a third, averaging 73.7 strict F1 across 12 Chinese and English NER benchmarks against 72.1 for direct extraction with Qwen3.8-27B. |
 
-<a id="subcategory-data-sql"></a>
+</details>
 
-### SQL & databases
+<details id="subcategory-data-sql">
+<summary><strong>SQL &amp; databases</strong> · 8 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -6682,9 +6794,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [pg-jev — demo](<https://x.com/iam_zachi/status/2100679300756435135>) | — | PostgreSQL extension for WHERE jev(t, '...') queries that batches 20 rows per request and reports how accuracy falls with larger batches. |
 | [pg-jev — demo 2](<https://x.com/iam_zachi/status/2100700176444731780>) | — | PostgreSQL extension for WHERE jev(t, '...') queries that batches 20 rows per request and reports how accuracy falls with larger batches. |
 
-<a id="subcategory-data-projects"></a>
+</details>
 
-### More projects & source code
+<details id="subcategory-data-projects">
+<summary><strong>More projects &amp; source code</strong> · 102 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -6791,9 +6904,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [whileai Jev judge backend — repo](<https://github.com/whilehq/whileai-sdk>) | — | Agent post-training and eval SDK with a typesafe: judge backend that runs its pointwise, pairwise, rubric and audit judges on Jev instead of a chat model. |
 | [zevals Jev judge](<https://github.com/opencx-labs/zevals>) | 11 | TypeScript library for end-to-end AI agent tests whose assertions can use Jev as the judge, reporting a calibrated probability per assertion at about 0.5 s and $0.00005 per call. |
 
-<a id="subcategory-data-posts"></a>
+</details>
 
-### More posts & discussions
+<details id="subcategory-data-posts">
+<summary><strong>More posts &amp; discussions</strong> · 18 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -6816,9 +6930,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Real-time decision dashboard](<https://x.com/itzKashan2912/status/2102169255341171132>) | — | Next.js dashboard that processes 50 events per second with Jev, flags what matters, tracks attention areas and surfaces the next best action. |
 | [typed\_evals — discussion](<https://www.reddit.com/r/LLMDevs/comments/1wlmeh6/opensource_typed_evals_ai_evaluation_powered_by/>) | — | Python library and CLI that evaluates LLM responses, RAG datasets, and recorded agent runs with Jev as the judge, guards tools before they execute, and can calibrate metrics against human pass/fail labels. |
 
-<a id="subcategory-data-packages"></a>
+</details>
 
-### More packages & releases
+<details id="subcategory-data-packages">
+<summary><strong>More packages &amp; releases</strong> · 3 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -6826,9 +6941,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [jev-logtriage — pypi](<https://pypi.org/project/jev-logtriage>) | — | CLI that batches collapsed Loki logs per source into one Jev call of Noul, Score and Choice questions, then maps answers in code to suppress, watch, review, notify or page, with low confidence going to review. |
 | [pytest-jev — pypi](<https://pypi.org/project/pytest-jev/>) | — | Plugin for pytest that adds semantic assertions on LLM app output: claims about one text go to Jev in a single request, and each test reports the probability per claim, failing uncertain ones by default. |
 
-<a id="subcategory-data-references"></a>
+</details>
 
-### More guides & websites
+<details id="subcategory-data-references">
+<summary><strong>More guides &amp; websites</strong> · 34 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -6867,13 +6983,15 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [whileai Jev judge backend — app](<https://withwhile.com>) | — | Agent post-training and eval SDK with a typesafe: judge backend that runs its pointwise, pairwise, rubric and audit judges on Jev instead of a chat model. |
 | [YOLO + Jev scene filter](<https://huggingface.co/spaces/iluvblender/yolo-jev-scene-filter>) | — | Vision pipeline where YOLO-World proposes open-vocabulary boxes and Jev answers a yes/no per box on whether to keep it, producing fewer, better-filtered detections. |
 
-<a id="category-benchmarks"></a>
+</details>
 
-## Benchmarks & evaluation
+</details>
 
-<a id="subcategory-benchmarks-accuracy"></a>
+<details id="category-benchmarks">
+<summary><strong>Benchmarks &amp; evaluation</strong> · 917 resources</summary>
 
-### Accuracy & comparisons
+<details id="subcategory-benchmarks-accuracy">
+<summary><strong>Accuracy &amp; comparisons</strong> · 86 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -6964,9 +7082,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [We tested Jev on search reranking and classification](<https://parallel.ai/blog/testing-jev>) | — | Search API company tests Jev zero-shot on reranking, topic classification and query freshness: it matched a custom reranker at NDCG@10 of 0.7 but trailed specialized internal classifiers. |
 | [WebJev](<https://github.com/lexmount/WebJev>) | — | Specialist decision model: Apache-2.0 open-weight Qwen3.5-35B-A3B fine-tune for browser agents, served by vLLM behind the same POST /v1/systemone and /api/alpha/decisions routes so a Jev client switches by changing only the base URL and key; inside the unchanged jev-ultrafast agent it completes 38.52% of 125 hand-picked real-website tasks graded by deterministic verifiers, against 16.67% for Jev 1.13. |
 
-<a id="subcategory-benchmarks-speed-cost"></a>
+</details>
 
-### Latency & cost
+<details id="subcategory-benchmarks-speed-cost">
+<summary><strong>Latency &amp; cost</strong> · 7 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -6978,9 +7097,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [PDF Race — app](<https://pdf-race.vercel.app>) | — | Race of three document pipelines on 12 arXiv papers: Docling with Jev, Docling with Gemini 3.8 Flash, and Gemini reading the PDF; all scored 12/12, but the Jev lane cost $0.0022 versus $0.0882. |
 | [Typed judgments or agentic loops?](<https://blog.r6i.it/typesafe-jev-vs-agentic-loop.html>) | — | Hierarchical Choices with fan-out against a GPT tool-calling agent, cutting average latency from 9.62 s to 1.38 s. |
 
-<a id="subcategory-benchmarks-calibration"></a>
+</details>
 
-### Calibration & consistency
+<details id="subcategory-benchmarks-calibration">
+<summary><strong>Calibration &amp; consistency</strong> · 22 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -7007,9 +7127,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [semantic-microscope](<https://github.com/abhishekmishragithub/semantic-microscope>) | 0 | Label every sentence of a document with calibrated probabilities from Jev, rendered as a heatmap |
 | [Sys1Cal-v1](<https://github.com/little-g-ai/Sys1Cal-v1>) | 0 | A Benchmark for Calibration and Semantic Evaluation of System One Models |
 
-<a id="subcategory-benchmarks-security"></a>
+</details>
 
-### Security evaluations
+<details id="subcategory-benchmarks-security">
+<summary><strong>Security evaluations</strong> · 9 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -7023,9 +7144,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [primitives](<https://github.com/Gaurav-Gosain/jev-sec-bench/blob/fdb16b94d37535db9bad77f8ef0faa971bd7d69a/internal/bench/run.go#L19>) | 3 | Gaurav-Gosain/jev-sec-bench — Blind security benchmarks for Jev, TypeSafe's System One model: prompt injection and vulnerable code detection, built on jev-go · primitives · Go |
 | [typesafe-guardrails](<https://github.com/jimbobbennett/typesafe-guardrails>) | 1 | Rebuilding the $1 Chevy Tahoe jailbreak, then stopping it: TypeSafe System One as a guardrail in an OpenAI Agents SDK agent, traced with Arize AX |
 
-<a id="subcategory-benchmarks-harnesses"></a>
+</details>
 
-### Evaluation harnesses
+<details id="subcategory-benchmarks-harnesses">
+<summary><strong>Evaluation harnesses</strong> · 39 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -7069,9 +7191,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [typed\_evals](<https://github.com/TrustifAI/typed_evals>) | 13 | Python library and CLI that evaluates LLM responses, RAG datasets, and recorded agent runs with Jev as the judge, guards tools before they execute, and can calibrate metrics against human pass/fail labels. |
 | [World Monitor Jev Headline Evaluation](<https://github.com/koala73/worldmonitor/tree/main/shared>) | 87,060 | Experimental harness that scores news headlines against geopolitical threat levels and event categories. |
 
-<a id="subcategory-benchmarks-datasets"></a>
+</details>
 
-### Datasets & case studies
+<details id="subcategory-benchmarks-datasets">
+<summary><strong>Datasets &amp; case studies</strong> · 7 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -7083,9 +7206,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [snbt-jev-bench](<https://github.com/misaalya/snbt-jev-bench>) | 0 | Jev on Indonesia's SNBT 2025 university entrance test: 159 questions, seven subtests, audited answer keys. |
 | [what-the-jev](<https://github.com/keta1930/what-the-jev>) | 4 | What can Jev actually do? Reproducible experiments and research reports exploring its capabilities and limits. |
 
-<a id="subcategory-benchmarks-projects"></a>
+</details>
 
-### More projects & source code
+<details id="subcategory-benchmarks-projects">
+<summary><strong>More projects &amp; source code</strong> · 643 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -7733,9 +7857,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [zzzzzec/jevsort](<https://github.com/zzzzzec/jevsort>) | 1 | Jev-powered integer sorting experiment: serial selection versus parallel rank prediction. |
 | [← Back to Awesome Jev](<https://github.com/Li-Evan/awesome-jev#benchmarks-and-case-studies>) | 24 | Listed by the source without a separate description. |
 
-<a id="subcategory-benchmarks-posts"></a>
+</details>
 
-### More posts & discussions
+<details id="subcategory-benchmarks-posts">
+<summary><strong>More posts &amp; discussions</strong> · 43 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -7783,17 +7908,19 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [typesafe-ai-benchmark — demo](<https://x.com/iamMrDuncan/status/2100467548298899918>) | — | Side-by-side benchmark of Qwen 3.8 27B structured output on Cerebras versus Jev across seven synthetic workloads, recording mistakes, latency, tokens, and estimated cost. |
 | [WindTunnel — demo](<https://x.com/0xidanlevin/status/2100937437325205568>) | — | WebMCP browser-agent benchmark of 49 tasks on 8 real sites across 21 configurations, where Jev + Mercury 2.5 tops the composite score, solving 49/49 tasks at $0.0011 median cost per task. |
 
-<a id="subcategory-benchmarks-videos"></a>
+</details>
 
-### More videos & channels
+<details id="subcategory-benchmarks-videos">
+<summary><strong>More videos &amp; channels</strong> · 1 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
 | [jev-labs — video](<https://www.youtube.com/watch?v=C_l8FI1oddE>) | — | TLA+-verified consensus kernel around Jev, generated into Rust and run through 1,680 simulated pharmacy decisions under seeded chaos against the live API, with zero wrong verdicts and more escalations as evidence degrades. |
 
-<a id="subcategory-benchmarks-references"></a>
+</details>
 
-### More guides & websites
+<details id="subcategory-benchmarks-references">
+<summary><strong>More guides &amp; websites</strong> · 60 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -7858,13 +7985,15 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [typesafe-vs-deepseek — app](<https://typesafe-vs-deepseek.vercel.app>) | — | Side-by-side comparison of Jev and DeepSeek flash on speed, tokens, cost and accuracy across invoice extraction, email classification and reranking, plus fraud, guardrail and reconciliation pipelines. |
 | [WindTunnel](<https://webmcp.com/benchmark>) | — | WebMCP browser-agent benchmark of 49 tasks on 8 real sites across 21 configurations, where Jev + Mercury 2.5 tops the composite score, solving 49/49 tasks at $0.0011 median cost per task. |
 
-<a id="category-models"></a>
+</details>
 
-## Open models & compatible servers
+</details>
 
-<a id="subcategory-models-replicas"></a>
+<details id="category-models">
+<summary><strong>Open models &amp; compatible servers</strong> · 569 resources</summary>
 
-### Open implementations
+<details id="subcategory-models-replicas">
+<summary><strong>Open implementations</strong> · 137 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -8006,9 +8135,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Von — discussion](<https://news.ycombinator.com/item?id=49781612>) | — | Open non-autoregressive decision model of about 395M parameters with public weights, training code and a System One-shaped API, answering Choice, Noul and Score questions locally in tens of milliseconds. |
 | [xingwudao/OpenJev](<https://github.com/xingwudao/OpenJev>) | 5 | OpenJev: an independent Jev-inspired System One decision API based on TypeSafe.ai concepts. Choice, score and noul primitives, local mock server, Python and TypeScript SDKs. Real inference planned; not affiliated with TypeSafe AI. |
 
-<a id="subcategory-models-training"></a>
+</details>
 
-### Training & distillation
+<details id="subcategory-models-training">
+<summary><strong>Training &amp; distillation</strong> · 29 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -8042,9 +8172,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Train your own Jev-like model — model](<https://huggingface.co/AstroHan/decision-head-qwen3.5-4b-rlcd-32k>) | — | Trains a Jev-style judgment model with RLCD on Qwen3.5-4B plus a rank-8 LoRA (32K questions, 9 GPU hours, about $42), tying Jev on the 120-question JevBench. |
 | [Train your own Jev-like model — project](<https://huggingface.co/astrohan/decision-head-qwen3.5-4b-rlcd-32k>) | — | Trains a Jev-style judgment model with RLCD on Qwen3.5-4B plus a rank-8 LoRA (32K questions, 9 GPU hours, about $42), tying Jev on the 120-question JevBench. |
 
-<a id="subcategory-models-servers"></a>
+</details>
 
-### Compatible servers
+<details id="subcategory-models-servers">
+<summary><strong>Compatible servers</strong> · 30 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -8079,9 +8210,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Splash — article](<https://inco.ai/blog/splash/>) | — | Local Apple silicon inference engine for coding agents that also serves a TypeSafe-compatible /v1/systemone endpoint, answering noul, choice and score questions from logits and working with the official SDK. |
 | [typesafe-local](<https://github.com/aabolfazl/typesafe-local>) | 8 | Local MLX server with TypeSafe's API shape that encodes a document once, appends each question as a short suffix and reads logits instead of generating; four questions take ~200 ms on an M4 Pro. |
 
-<a id="subcategory-models-adapters"></a>
+</details>
 
-### Compatibility adapters
+<details id="subcategory-models-adapters">
+<summary><strong>Compatibility adapters</strong> · 6 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -8092,9 +8224,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [verdict](<https://github.com/khimaros/verdict>) | 5 | Self-hosted server that turns any llama-server or llama-swap endpoint into a Jev-compatible System One API by reading the probability on each option label in one forward pass, so Jev clients only change the base URL. |
 | [verdict — demo](<https://news.ycombinator.com/item?id=49783288>) | — | Self-hosted server that turns any llama-server or llama-swap endpoint into a Jev-compatible System One API by reading the probability on each option label in one forward pass, so Jev clients only change the base URL. |
 
-<a id="subcategory-models-projects"></a>
+</details>
 
-### More projects & source code
+<details id="subcategory-models-projects">
+<summary><strong>More projects &amp; source code</strong> · 217 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -8316,9 +8449,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [zwliJay/jev-forge](<https://github.com/zwliJay/jev-forge>) | 105 | An open training and inference stack for Jev-style decision models. Train models to score dynamic candidate branches from a shared prefix, with support for high-cardinality choice, calibration, and fast batched inference. |
 | [← Back to Awesome Jev](<https://github.com/Li-Evan/awesome-jev#open-models-and-compatible-servers>) | 24 | Listed by the source without a separate description. |
 
-<a id="subcategory-models-posts"></a>
+</details>
 
-### More posts & discussions
+<details id="subcategory-models-posts">
+<summary><strong>More posts &amp; discussions</strong> · 44 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -8367,17 +8501,19 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [VEJI-V2](<https://www.reddit.com/r/LocalLLM/comments/1wlf4sv/opensource_jevstyle_typed_decision_model_that/>) | — | MIT-licensed non-autoregressive typed decision model: a 3.3M-parameter head on a frozen multilingual MiniLM that scores options jointly, cites evidence spans, and can abstain. |
 | [vLLM DiffusionGemma Jev mode — demo](<https://news.ycombinator.com/item?id=49734375>) | — | Open vLLM pull request adding a structured generation mode that turns DiffusionGemma into a Jev-like model, with a prototype server for the /v1/systemone endpoint. |
 
-<a id="subcategory-models-videos"></a>
+</details>
 
-### More videos & channels
+<details id="subcategory-models-videos">
+<summary><strong>More videos &amp; channels</strong> · 1 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
 | [Jev mode for llama.cpp](<https://www.youtube.com/watch?v=bcGO7xre46o>) | — | Fork of llama.cpp adding a llama-server endpoint that takes instructions, a schema, and state and returns every field with a confidence score; 17.3 ms per decision in bulk on a 2 GB model. |
 
-<a id="subcategory-models-packages"></a>
+</details>
 
-### More packages & releases
+<details id="subcategory-models-packages">
+<summary><strong>More packages &amp; releases</strong> · 5 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -8387,9 +8523,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Laya-MLX — pypi](<https://pypi.org/project/laya-mlx/>) | — | Native MLX runtime for the open Laya typed-decision checkpoints on Apple Silicon: 13.4 ms median per short English decision and 7.4 ms with the multilingual checkpoint, with no PyTorch or cloud API; demoed on Snake. |
 | [open-jev (nico-martin) — npm](<https://www.npmjs.com/package/open-jev>) | — | Browser-focused TypeScript library that runs open Jev-shaped typed-decision models such as Kev on-device through Transformers.js, on WebGPU or WebAssembly, returning a calibrated distribution per question. |
 
-<a id="subcategory-models-references"></a>
+</details>
 
-### More guides & websites
+<details id="subcategory-models-references">
+<summary><strong>More guides &amp; websites</strong> · 100 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -8494,13 +8631,15 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [webml-kit — app](<https://hemanth.github.io/webml-kit/>) | — | Framework-agnostic toolkit for running ML models in the browser over WebGPU/WASM that adds a Jev-style decision task, reading typed Choice, Noul and Score answers from local models such as Qwen or OpenJev GGUFs. |
 | [zwliJay/jev-forge website](<https://jay-forge-web.vercel.app/>) | — | An open training and inference stack for Jev-style decision models. Train models to score dynamic candidate branches from a shared prefix, with support for high-cardinality choice, calibration, and fast batched inference. |
 
-<a id="category-games"></a>
+</details>
 
-## Games & interactive worlds
+</details>
 
-<a id="subcategory-games-arcade"></a>
+<details id="category-games">
+<summary><strong>Games &amp; interactive worlds</strong> · 444 resources</summary>
 
-### Arcade & classic games
+<details id="subcategory-games-arcade">
+<summary><strong>Arcade &amp; classic games</strong> · 68 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -8573,9 +8712,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [typesafe-mario — demo](<https://x.com/faadilhshaik/status/2100086301894881578>) | — | Plays Super Mario with a Choice for the controller action, a jump Noul, and a danger Score. |
 | [typesafe-mario — discussion](<https://www.reddit.com/r/typesafe_ai/comments/1whrm0q/jev_playing_mario_bros_no_prior_training_wow/>) | — | Plays Super Mario with a Choice for the controller action, a jump Noul, and a danger Score. |
 
-<a id="subcategory-games-strategy"></a>
+</details>
 
-### Strategy & puzzles
+<details id="subcategory-games-strategy">
+<summary><strong>Strategy &amp; puzzles</strong> · 90 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -8670,9 +8810,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [TypeSafe Chess](<https://github.com/Dimesio/typesafe-chess>) | 2 | Local app that tests Jev as a chess player: chess.js lists the legal moves, Jev picks one, and Stockfish grades every pick, with optional lesson levels that feed Jev its own graded mistakes. |
 | [typesafe-3d-chess](<https://github.com/malDuffin/typesafe-3d-chess>) | 0 | 3D chess powered by TypeSafe AI (Jev). AI vs AI by default, or play either side. Multiple difficulty levels. |
 
-<a id="subcategory-games-worlds"></a>
+</details>
 
-### Interactive worlds
+<details id="subcategory-games-worlds">
+<summary><strong>Interactive worlds</strong> · 35 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -8712,9 +8853,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Tiny World](<https://x.com/marinatrajk/status/2102173897676185658>) | — | Small 3D world of six residents with homes, jobs, needs and friendships where Jev decides each one's next action, and users inject situations such as emergencies to watch them react. |
 | [Truman World](<https://x.com/WillTheRapper_/status/2102133645167272057>) | — | AI life-simulation where a GPT-6 Astra engine drives the storyline and Jev decides what happens next, with a terminal-style UI that visualizes each decision. |
 
-<a id="subcategory-games-playful"></a>
+</details>
 
-### Playful experiments
+<details id="subcategory-games-playful">
+<summary><strong>Playful experiments</strong> · 9 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -8728,9 +8870,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [The Council of Extremely Specific Opinions](<https://github.com/cbetz/extremely-specific-council>) | 0 | Playful app where a council of twelve characters, from a golden retriever to three raccoons in a suit, votes on your idea with animated votes, inspectable decisions and a shareable result card. |
 | [The Council of Extremely Specific Opinions — app](<https://extremely-specific-council-five.vercel.app>) | — | Playful app where a council of twelve characters, from a golden retriever to three raccoons in a suit, votes on your idea with animated votes, inspectable decisions and a shareable result card. |
 
-<a id="subcategory-games-projects"></a>
+</details>
 
-### More projects & source code
+<details id="subcategory-games-projects">
+<summary><strong>More projects &amp; source code</strong> · 112 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -8847,9 +8990,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [XRENGINE Jev scene commands](<https://github.com/BlackJaxDev/XRENGINE/blob/master/XREngine.Editor/Mcp/Actions/EditorMcpActions.TypeSafe.cs>) | — | Editor MCP action in the XRENGINE C# VR game engine that resolves natural-language scene instructions such as 'select player node' into a suggested MCP command and target node using Jev, with pattern matching as fallback. |
 | [XRENGINE Jev scene commands — repo](<https://github.com/BlackJaxDev/XRENGINE>) | — | Editor MCP action in the XRENGINE C# VR game engine that resolves natural-language scene instructions such as 'select player node' into a suggested MCP command and target node using Jev, with pattern matching as fallback. |
 
-<a id="subcategory-games-posts"></a>
+</details>
 
-### More posts & discussions
+<details id="subcategory-games-posts">
+<summary><strong>More posts &amp; discussions</strong> · 80 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -8934,9 +9078,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Wikipedia Speedrun](<https://www.reddit.com/r/accelerate/comments/1wikmz1/jev_demo_wikirace/>) | — | Demo of Jev racing from one Wikipedia article to another using only the links on each page, choosing among hundreds to thousands of links per hop. |
 | [Wikipedia Speedrun — source](<https://x.com/CompleteSkeptic/status/2099925688925184171>) | — | Demo of Jev racing from one Wikipedia article to another using only the links on each page, choosing among hundreds to thousands of links per hop. |
 
-<a id="subcategory-games-videos"></a>
+</details>
 
-### More videos & channels
+<details id="subcategory-games-videos">
+<summary><strong>More videos &amp; channels</strong> · 6 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -8947,17 +9092,19 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Laya vs Jev Arena — video](<https://www.youtube.com/watch?v=x1GFo1eG8d0>) | — | Local arena where the open Laya model and Jev race in Snake and fight in a Mortal-Kombat-style game, answering the same typed questions so only the model differs. |
 | [TerraBlind — demo](<https://www.youtube.com/watch?v=g6CADbjBhlk>) | — | Terraria tModLoader mod where Jev fights the bosses, answering one question every 200 ms that code turns into keystrokes; it beat every pre-hardmode boss in master mode. |
 
-<a id="subcategory-games-packages"></a>
+</details>
 
-### More packages & releases
+<details id="subcategory-games-packages">
+<summary><strong>More packages &amp; releases</strong> · 1 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
 | [Jev plays Pokemon Red — package](<https://www.npmjs.com/package/jev-plays-pokemon>) | — | Live stream of Jev playing Pokemon Red, where every button press is Jev's choice; after 8,000+ decisions and $1.21 it had beaten Brock for the first gym badge. |
 
-<a id="subcategory-games-references"></a>
+</details>
 
-### More guides & websites
+<details id="subcategory-games-references">
+<summary><strong>More guides &amp; websites</strong> · 43 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -9005,13 +9152,15 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [The Trolley Problem](<https://gpu.studio/trolley>) | — | Browser toy where you put anything on both tracks of the trolley problem and Jev decides whether to pull the lever. |
 | [vibedgames model playtester — app](<https://vibedgames.com>) | — | Game studio toolkit for coding agents whose vg playtest run drives a game character with TypeSafe System One, one decision per tick proxied through the server. |
 
-<a id="category-finance"></a>
+</details>
 
-## Finance & trading
+</details>
 
-<a id="subcategory-finance-trading"></a>
+<details id="category-finance">
+<summary><strong>Finance &amp; trading</strong> · 152 resources</summary>
 
-### Trading agents
+<details id="subcategory-finance-trading">
+<summary><strong>Trading agents</strong> · 48 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -9064,9 +9213,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Revamped Jev trading bot — app](<https://jev-trader-live-viewer.mrypcv7pwh.chatgpt.site/?v=9>) | — | Rework of the jev-trader demo around Jev with a live viewer that runs in paper mode; the author reports smaller losses but no clear performance gain. |
 | [TSLA moving-average rule with Jev](<https://x.com/mttcnnng/status/2100971168912048153>) | — | Trading experiment that pairs a simple TSLA 50-day moving-average rule with Jev as the judgment layer, where the code, not the model, decides the final action. |
 
-<a id="subcategory-finance-signals"></a>
+</details>
 
-### Signals & market analysis
+<details id="subcategory-finance-signals">
+<summary><strong>Signals &amp; market analysis</strong> · 23 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -9094,9 +9244,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Research Desk — demo](<https://www.reddit.com/r/ClaudeCode/comments/1wjgk0q/built_a_live_marketanalysis_desk_in_claude_code/>) | — | Market-analysis demo that reads live yfinance company profiles and headlines into ranked, grounded and routed trade ideas, with a Requests tab showing the state and questions behind every number. |
 | [Stock scoring engine](<https://x.com/hridoy43/status/2102203200690606100>) | — | Stock-market scoring and decision engine with portfolio-aware suggestions, using Jev to judge the non-numerical data about each stock. |
 
-<a id="subcategory-finance-risk"></a>
+</details>
 
-### Risk & financial workflows
+<details id="subcategory-finance-risk">
+<summary><strong>Risk &amp; financial workflows</strong> · 13 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -9114,9 +9265,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [ValAct\_RAG](<https://github.com/DanTCIM/ValAct_RAG>) | 12 | RAG question answering over life valuation actuarial documents where an Auto mode asks Jev to score every document collection for relevance in one ~300 ms call before searching. |
 | [ynab-mcp-server](<https://github.com/calebl/ynab-mcp-server>) | 142 | MCP server for reading and editing YNAB budgets that adds an opt-in Jev tool suggesting categories for transactions, applied only through a separate write tool. |
 
-<a id="subcategory-finance-projects"></a>
+</details>
 
-### More projects & source code
+<details id="subcategory-finance-projects">
+<summary><strong>More projects &amp; source code</strong> · 48 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -9169,9 +9321,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [tempo-jev-demo](<https://github.com/mychaelangelo/tempo-jev-demo>) | — | Domain Tools: I created Tempo with OpenAI's Codex, using Astra and GPT-5.6 Sol, with my direction and guidance. Codex also came up with the name Tempo. I haven't personally reviewed all of the code. This is an experimental demo so don't use it for anything serious. It may contain bugs, unexpected behaviour, and issues I'm not aware of. More details on how to get started below. Have fun! |
 | [tictacjev](<https://github.com/darthblanc/tictacjev>) | — | Domain Tools: A tic-tac-toe app where one player is Jev, TypeSafe AI's System One Model with live confidence scores and probabilities. |
 
-<a id="subcategory-finance-posts"></a>
+</details>
 
-### More posts & discussions
+<details id="subcategory-finance-posts">
+<summary><strong>More posts &amp; discussions</strong> · 10 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -9186,18 +9339,20 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Scarlett](<https://x.com/BrendanPlayford/status/2101512902104813800>) | — | Review of 7,522 crypto trade setups ranked by Scarlett, which pairs a time-series forecasting model with Jev judgments; the Pullback strategy returned +8.55R over 23 closed trades after fees and slippage. |
 | [Trading signal interpreter](<https://x.com/_trou3/status/2100481938016669917>) | — | Trading-system demo in which Jev reads dozens of structured trading signals and turns them into buy, sell or hold decisions. |
 
-<a id="subcategory-finance-videos"></a>
+</details>
 
-### More videos & channels
+<details id="subcategory-finance-videos">
+<summary><strong>More videos &amp; channels</strong> · 2 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
 | [Jev Backtest Lab](<https://www.youtube.com/watch?v=FPhDl_MwT8U>) | — | Backtests 300 Jev trade decisions across NVDA, JPM, XOM, BTC-USD, and GLD; 46 trades netted +3.82%, far below buy-and-hold, and trades with contradictory answers lost money. |
 | [Jev on Kalshi prediction markets](<https://www.youtube.com/watch?v=Od4j4osz4JY>) | — | Experiment using Jev to judge whether injury news moves Kalshi sports markets and to read Bitcoin prediction-market order books, with notes on limits for AI trading. |
 
-<a id="subcategory-finance-references"></a>
+</details>
 
-### More guides & websites
+<details id="subcategory-finance-references">
+<summary><strong>More guides &amp; websites</strong> · 8 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -9210,13 +9365,15 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Scarlett — app](<https://scarlett.ai/>) | — | Review of 7,522 crypto trade setups ranked by Scarlett, which pairs a time-series forecasting model with Jev judgments; the Pullback strategy returned +8.55R over 23 closed trades after fees and slippage. |
 | [Scarlett — docs](<https://docs.scarlett.ai/>) | — | Review of 7,522 crypto trade setups ranked by Scarlett, which pairs a time-series forecasting model with Jev judgments; the Pullback strategy returned +8.55R over 23 closed trades after fees and slippage. |
 
-<a id="category-apps"></a>
+</details>
 
-## Applications & productivity
+</details>
 
-<a id="subcategory-apps-email"></a>
+<details id="category-apps">
+<summary><strong>Applications &amp; productivity</strong> · 1,224 resources</summary>
 
-### Email & inboxes
+<details id="subcategory-apps-email">
+<summary><strong>Email &amp; inboxes</strong> · 40 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -9261,9 +9418,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [ToneBird reply finder](<https://x.com/Tonebird_ai/status/2102190208498471368>) | — | Demo in ToneBird where you type what you mean and Jev narrows 18 candidate replies to 3 matches in 0.28 to 0.53s per call, reshuffling as you change your mind. |
 | [메일살핌 (gmail-mail-triage)](<https://github.com/kijung4290/gmail-mail-triage>) | — | Local-only web app that pulls unread Gmail over read-only IMAP, masks personal data, and has Jev classify reply urgency, whether a mail is an ad and whether it needs a reply. |
 
-<a id="subcategory-apps-notes"></a>
+</details>
 
-### Notes & knowledge
+<details id="subcategory-apps-notes">
+<summary><strong>Notes &amp; knowledge</strong> · 28 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -9296,17 +9454,19 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [ThinkyMiner/Winnow](<https://github.com/ThinkyMiner/Winnow>) | 2 | Know before you click. A Chrome extension that reads articles and YouTube videos ahead of you and says read, skim, save, or skip — with a confidence, tuned to your goals. Open source, MV3, powered by Jev. |
 | [Winnow — site](<https://winnow-seven.vercel.app>) | — | Chrome extension that reads an article or YouTube video ahead of you and says read now, skim, save or skip with a confidence, plus insight density, sales-pitch and AI-written signals tuned to your goals. |
 
-<a id="subcategory-apps-planning"></a>
+</details>
 
-### Calendars & planning
+<details id="subcategory-apps-planning">
+<summary><strong>Calendars &amp; planning</strong> · 1 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
 | [Cal.com team scheduling](<https://x.com/peer_rich/status/2100902559313502602>) | — | Combines Jev with the Cal.com API to find the best meeting overlap among team members almost instantly, with API round trips as the slowest step. |
 
-<a id="subcategory-apps-utilities"></a>
+</details>
 
-### Everyday utilities
+<details id="subcategory-apps-utilities">
+<summary><strong>Everyday utilities</strong> · 7 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -9318,9 +9478,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [jev-animal-finder](<https://github.com/TokyoHunter/jev-animal-finder>) | 1 | Floating animal emoji finder with a search bar in the middle. Search in plain English using Jev AI, with a built-in search as fallback. Click any emoji to copy it. |
 | [jev-block-android-ad](<https://github.com/ufec/jev-block-android-ad>) | 5 | JevNoiseGate filters unwanted notifications and SMS on Android. Rather than matching keywords, an LLM decides what's noise — and only what it explicitly flags is blocked. Verification codes are matched on-device and never uploaded; anything uncertain passes through. |
 
-<a id="subcategory-apps-workflows"></a>
+</details>
 
-### Personal automation
+<details id="subcategory-apps-workflows">
+<summary><strong>Personal automation</strong> · 27 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -9352,9 +9513,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Taskuary Jev routing judge — app](<https://taskuary.com>) | — | Routing judge in Taskuary, a local-first AI task hub for email, Teams and Slack, where Jev decides after each scheduled report run whether to post it, put it on the work rail, alert the owner or send it out. |
 | [TheEleventhAvatar/triage-bot](<https://github.com/TheEleventhAvatar/triage-bot>) | 1 | Real-time support triage + response bot Jev routes the ticket to a specialist agent (general / account / billing / technical) and decides whether a human should take it instead — all as typed data, no text to parse. Cerebras then drafts the reply using whichever agent Jev picked. The script times both calls separately so you can see the split. |
 
-<a id="subcategory-apps-projects"></a>
+</details>
 
-### More projects & source code
+<details id="subcategory-apps-projects">
+<summary><strong>More projects &amp; source code</strong> · 1,052 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -10411,9 +10573,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [zadescoxp/kadeconsole](<https://github.com/zadescoxp/kadeconsole>) | 1 | Kade console is a bloomberg terminal type of analytical tool. |
 | [zaini/unsee](<https://github.com/zaini/unsee>) | 1 | Hide what you'd rather not see: a Chrome extension demo where natural-language rules are judged by TypeSafe's Jev |
 
-<a id="subcategory-apps-posts"></a>
+</details>
 
-### More posts & discussions
+<details id="subcategory-apps-posts">
+<summary><strong>More posts &amp; discussions</strong> · 37 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -10455,26 +10618,29 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Your Signal — discussion](<https://www.reddit.com/r/SideProject/comments/1wjykoj/i_built_an_opensource_chrome_extension_that_uses/>) | — | Bring-your-own-key Chrome extension that scores visible X posts for relevance, substance, practical value, promotion and engagement bait with Jev, then highlights, dims, collapses or hides them per your settings. |
 | [YT Time Saver — demo](<https://www.reddit.com/r/typesafe_ai/comments/1wkv19h/built_a_chrome_extension_that_covers_distracting/>) | — | Chrome extension that covers YouTube videos that look more distracting than useful, with a show-anyway button. |
 
-<a id="subcategory-apps-videos"></a>
+</details>
 
-### More videos & channels
+<details id="subcategory-apps-videos">
+<summary><strong>More videos &amp; channels</strong> · 2 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
 | [Jev in the ICOR AI team](<https://www.youtube.com/watch?v=aXt7c_IHptU>) | — | Episode showing Jev inside a personal knowledge folder and AI team: finding guidelines in the vault, ranking titles, picking models per agent, and choosing layouts for a slide deck built in 16 seconds. |
 | [Job Finder — demo](<https://www.youtube.com/watch?v=bO7vzA0xbWg>) | — | Dagster pipeline that searches job boards, scrapes listings with Jina, evaluates each against your criteria and puts the strongest matches in a private review queue, with Jev as an evaluator. |
 
-<a id="subcategory-apps-packages"></a>
+</details>
 
-### More packages & releases
+<details id="subcategory-apps-packages">
+<summary><strong>More packages &amp; releases</strong> · 1 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
 | [jod — npm](<https://npmjs.com/package/@mateonunez/jod>) | — | TypeScript library that binds a Standard Schema state and a set of questions into one artifact, validates the state locally, then sends all questions in one parallel Jev request and returns typed domain values. |
 
-<a id="subcategory-apps-references"></a>
+</details>
 
-### More guides & websites
+<details id="subcategory-apps-references">
+<summary><strong>More guides &amp; websites</strong> · 29 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -10508,13 +10674,15 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [TypeSafe-Test-Project](<https://jev-pilot-proxy.vercel.app>) | — | This is just for testing TypeSafe AI |
 | [usenotra/notra website](<https://www.usenotra.com/>) | — | Notra is a modern GEO tool that asks ChatGPT, Claude and Gemini the questions your buyers ask. See if you show up, who shows up instead and how to fix it. |
 
-<a id="category-commerce"></a>
+</details>
 
-## Commerce & marketing
+</details>
 
-<a id="subcategory-commerce-shopping"></a>
+<details id="category-commerce">
+<summary><strong>Commerce &amp; marketing</strong> · 64 resources</summary>
 
-### Shopping & recommendations
+<details id="subcategory-commerce-shopping">
+<summary><strong>Shopping &amp; recommendations</strong> · 7 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -10526,9 +10694,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Pokémon card deal finder](<https://x.com/luke0ritchie/status/2101053019391492500>) | — | Deal finder for Pokémon cards that pulls cards from the TCGdex API, searches eBay and filters listings with Jev, raising match accuracy from 58% to 98%. |
 | [Second-hand shopping agent](<https://x.com/AlanDaitch/status/2100757989212754085>) | — | Playwright shopping agent where Jev reviews about 26 used listings per minute in 406 ms each, skipping poor fits, bidding on good ones and messaging sellers, for USD 0.00085 in total. |
 
-<a id="subcategory-commerce-marketing"></a>
+</details>
 
-### Marketing & advertising
+<details id="subcategory-commerce-marketing">
+<summary><strong>Marketing &amp; advertising</strong> · 15 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -10548,18 +10717,20 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Rankhog — app](<https://rankhog.com>) | — | Reddit SEO tool that added Jev to spot, in under 5 minutes, threads where a product can be promoted or Reddit posts that already rank on Google and ChatGPT for your keywords. |
 | [Video ad shot scoring](<https://x.com/vladdubchak_x/status/2100870244004683886>) | — | Tool that pulls an advertiser's live Meta video ads through Maxfusion and has Jev judge every shot and rate the whole ad; 50 judgments took 1.52 seconds for $0.00028. |
 
-<a id="subcategory-commerce-business"></a>
+</details>
 
-### Business operations
+<details id="subcategory-commerce-business">
+<summary><strong>Business operations</strong> · 2 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
 | [AnchorLint](<https://github.com/prantikmedhi/anchorlint>) | — | Internal-link auditor for built HTML sites that runs deterministic link checks plus an optional Jev pass on whether anchor text matches the destination and fits its context, with CI regression gates. |
 | [AnchorLint — app](<https://prantikmedhi.github.io/anchorlint/>) | — | Internal-link auditor for built HTML sites that runs deterministic link checks plus an optional Jev pass on whether anchor text matches the destination and fits its context, with CI regression gates. |
 
-<a id="subcategory-commerce-projects"></a>
+</details>
 
-### More projects & source code
+<details id="subcategory-commerce-projects">
+<summary><strong>More projects &amp; source code</strong> · 11 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -10575,9 +10746,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Predict](<https://github.com/acoyfellow/predict>) | 5 | Small browser client and self-hostable Cloudflare Worker that asks Jev to pick a website's next useful action from site-defined outcomes, for example whether to show a plan comparison to a visitor confused by pricing. |
 | [Reddit Radar](<https://github.com/oguzhankayan/reddit-radar>) | 33 | Local MCP server that turns a research question into market intelligence from thousands of Reddit posts, with Jev classifying posts and evidence behind every theme and lead. Jev matched human labels 73.5% of the time. |
 
-<a id="subcategory-commerce-posts"></a>
+</details>
 
-### More posts & discussions
+<details id="subcategory-commerce-posts">
+<summary><strong>More posts &amp; discussions</strong> · 12 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -10594,17 +10766,19 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [SEO internal-link rebuild](<https://x.com/ai_xiaomu/status/2101447997318127897>) | — | Site-wide SEO internal-link rebuild where Jev placed 584 relevant links and rejected 139 weak pages in 45.1 seconds for $0.21, while Opus 5 handled 21 pages in the same time. |
 | [Synthetic ad focus group](<https://x.com/TheMattBerman/status/2101439340588974096>) | — | Post claiming Jev scrolled 723 ads as 30 buyer personas, making 21,690 stop-or-scroll calls for 22 cents; the code is unpublished and the calls were not checked against real ad results, so treat it as a first screen. |
 
-<a id="subcategory-commerce-videos"></a>
+</details>
 
-### More videos & channels
+<details id="subcategory-commerce-videos">
+<summary><strong>More videos &amp; channels</strong> · 1 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
 | [AI Wardrobe App](<https://www.youtube.com/watch?v=IeiSdVRMc-U>) | — | Multi-hour live build of an AI wardrobe app with virtual try-on, where Jev is added to the AI stylist to rank outfits and compared with an LLM on speed and cost. |
 
-<a id="subcategory-commerce-references"></a>
+</details>
 
-### More guides & websites
+<details id="subcategory-commerce-references">
+<summary><strong>More guides &amp; websites</strong> · 16 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -10625,13 +10799,15 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Predict — app](<https://predict.coey.dev/>) | — | Small browser client and self-hostable Cloudflare Worker that asks Jev to pick a website's next useful action from site-defined outcomes, for example whether to show a plan comparison to a visitor confused by pricing. |
 | [Reddit conversation finder — product](<https://ghostfeed.ai>) | — | Tool that scans Reddit posts and comments from the last 48 hours and uses Jev to surface people actually asking for help a product could give, with skip and handled buttons. |
 
-<a id="category-support"></a>
+</details>
 
-## Customer support & sales
+</details>
 
-<a id="subcategory-support-tickets"></a>
+<details id="category-support">
+<summary><strong>Customer support &amp; sales</strong> · 53 resources</summary>
 
-### Ticket routing & triage
+<details id="subcategory-support-tickets">
+<summary><strong>Ticket routing &amp; triage</strong> · 18 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -10654,9 +10830,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [UiPath ticket triage agent](<https://github.com/UiPath/uipath-python/tree/main/packages/uipath/samples/ticket-triage-agent>) | — | Sample UiPath agent for two-tier support ticket triage where Jev routes each ticket fast, escalating to Action Center human review or an LLM-drafted auto-reply. |
 | [UiPath ticket triage agent — docs](<https://uipath.github.io/uipath-python/>) | — | Sample UiPath agent for two-tier support ticket triage where Jev routes each ticket fast, escalating to Action Center human review or an LLM-drafted auto-reply. |
 
-<a id="subcategory-support-service"></a>
+</details>
 
-### Customer service
+<details id="subcategory-support-service">
+<summary><strong>Customer service</strong> · 6 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -10667,9 +10844,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Jev in-app help for a Mac app](<https://x.com/malekoo/status/2100439840575684910>) | — | In-app help for a Mac app that works with no model loaded: Jev reads the question against the built-in manual and picks the matching article or none, routing 42/42 held-out prompts correctly with a median 0.93 s. |
 | [Real-time Clippy](<https://x.com/sotak/status/2100701152824185319>) | — | In-product Clippy that watches how someone uses an app and appears only when Jev judges they are hesitating, confused or stuck, with its reactions also chosen by Jev. |
 
-<a id="subcategory-support-sales"></a>
+</details>
 
-### Sales & lead qualification
+<details id="subcategory-support-sales">
+<summary><strong>Sales &amp; lead qualification</strong> · 15 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -10689,9 +10867,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [SignalScout — repo](<https://github.com/rszhd/signalscout>) | — | Open-source intent monitoring that searches Reddit, X, LinkedIn, YouTube, TikTok and Instagram for people describing a problem your product solves and scores each conversation for fit and buyer intent. |
 | [Telemarketing AI with Jev](<https://x.com/zeetakou/status/2101945022782284192>) | — | Outbound calling agent on the GPT Live API that dials a lead list and transfers promising prospects, now testing Jev for calls like whether a lead is promising, when to hand off, and redial priority. |
 
-<a id="subcategory-support-projects"></a>
+</details>
 
-### More projects & source code
+<details id="subcategory-support-projects">
+<summary><strong>More projects &amp; source code</strong> · 4 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -10700,9 +10879,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Twenty Classify workflow action](<https://github.com/twentyhq/twenty/tree/main/packages/twenty-server/src/modules/workflow/workflow-executor/workflow-actions/classify>) | ≈57,200 | Classify step in the open-source Twenty CRM's workflows that asks Jev choice, score or boolean questions about a record, so later steps can branch on the answers and probabilities. |
 | [Warmbly TypeSafe client](<https://github.com/warmbly/warmbly/tree/main/internal/pkg/typesafe>) | — | Open-source cold outreach and email warmup platform that uses TypeSafe judgments for inbox tagging, reply intent classification, draft gating, bounce causes and form submission triage. |
 
-<a id="subcategory-support-posts"></a>
+</details>
 
-### More posts & discussions
+<details id="subcategory-support-posts">
+<summary><strong>More posts &amp; discussions</strong> · 7 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -10714,9 +10894,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [WhatsApp customer group monitor](<https://x.com/t0t0_build/status/2101082444577567162>) | — | Monitors 25+ WhatsApp groups with clients in real time, with Jev judging whether anything needs attention, such as urgent problems or unresolved orders, and only then asking an LLM to write a notification. |
 | [Worth Replying](<https://x.com/AIsaOneHQ/status/2100894473085489510>) | — | Takes a company's domain and finds X users already discussing the problems its product solves; on typesafe.ai it found 150 tweets and made 750 Jev decisions in 18.8s for $0.007. |
 
-<a id="subcategory-support-references"></a>
+</details>
 
-### More guides & websites
+<details id="subcategory-support-references">
+<summary><strong>More guides &amp; websites</strong> · 3 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -10724,13 +10905,15 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Twenty Classify workflow action — app](<https://twenty.com>) | — | Classify step in the open-source Twenty CRM's workflows that asks Jev choice, score or boolean questions about a record, so later steps can branch on the answers and probabilities. |
 | [Warmbly TypeSafe client — app](<https://warmbly.com>) | — | Open-source cold outreach and email warmup platform that uses TypeSafe judgments for inbox tagging, reply intent classification, draft gating, bounce causes and form submission triage. |
 
-<a id="category-science"></a>
+</details>
 
-## Legal, health & science
+</details>
 
-<a id="subcategory-science-legal"></a>
+<details id="category-science">
+<summary><strong>Legal, health &amp; science</strong> · 31 resources</summary>
 
-### Legal & contracts
+<details id="subcategory-science-legal">
+<summary><strong>Legal &amp; contracts</strong> · 7 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -10742,9 +10925,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [stella System One decisions](<https://github.com/stella/stella/blob/main/apps/api/src/lib/workflow/decisions/system-one.ts>) | — | Open-source legal workspace that asks Jev only for judgments code cannot make, such as how a citing court treats a decision, which option a passage settles, and which extracted date a question names. |
 | [stella System One decisions — app](<https://stll.app>) | — | Open-source legal workspace that asks Jev only for judgments code cannot make, such as how a citing court treats a decision, which option a passage settles, and which extracted date a question names. |
 
-<a id="subcategory-science-health"></a>
+</details>
 
-### Health & medicine
+<details id="subcategory-science-health">
+<summary><strong>Health &amp; medicine</strong> · 5 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -10754,9 +10938,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Medical MCP JEV ranker](<https://github.com/JamesANZ/medical-mcp/tree/main/src/rank>) | — | MCP server for FDA, WHO, PubMed and RxNorm data that can rerank literature hits with Jev, judging each abstract against the question and keeping, demoting or dropping it. |
 | [MedJev](<https://github.com/JunMa11/MedJev>) | 11 | Jev-like model built on the open Kev code that extracts table-ready clinical variables from free-text notes on one consumer GPU inside a hospital, with a local app comparing it against hosted Jev and base Qwen3.5-0.8B. |
 
-<a id="subcategory-science-research"></a>
+</details>
 
-### Scientific applications
+<details id="subcategory-science-research">
+<summary><strong>Scientific applications</strong> · 7 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -10768,9 +10953,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Jev Reviewer — demo](<https://x.com/ASofiMahmudi/status/2100985031703269425>) | — | In-browser data extraction tool for systematic reviews that answers extraction-form or RoB 2, ROBINS-I, QUADAS-2, and TIDieR template questions with verbatim quotes and page locations from trial reports. |
 | [lit-search Jev screening](<https://github.com/luwill/research-skills/tree/main/lit-search/src/litsearch>) | — | The lit-search skill in this research-skills collection compiles literature inclusion/exclusion criteria into Jev questions and screens each record into a single verdict. |
 
-<a id="subcategory-science-projects"></a>
+</details>
 
-### More projects & source code
+<details id="subcategory-science-projects">
+<summary><strong>More projects &amp; source code</strong> · 8 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -10783,31 +10969,35 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [PRomop Jev concept ranking](<https://github.com/healthkey-ai/promop/blob/dev/omop_core/mapping/suggestions.py>) | — | OMOP-based oncology patient record platform that can rank candidate standard vocabulary concepts (for example LOINC codes) with Jev when mapping source terms, instead of or alongside Anthropic. |
 | [PRomop Jev concept ranking — repo](<https://github.com/healthkey-ai/promop>) | — | OMOP-based oncology patient record platform that can rank candidate standard vocabulary concepts (for example LOINC codes) with Jev when mapping source terms, instead of or alongside Anthropic. |
 
-<a id="subcategory-science-posts"></a>
+</details>
 
-### More posts & discussions
+<details id="subcategory-science-posts">
+<summary><strong>More posts &amp; discussions</strong> · 2 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
 | [Adverse drug effect detection with GEPA](<https://x.com/Paiky16/status/2101628198928982219>) | — | Uses Jev to flag sentences reporting suspected adverse drug effects in medical literature, then GEPA prompt optimization raised F1 from 69.1% to 79.7% and cut false positives from 47 to 22. |
 | [Jev on a Spanish legal corpus](<https://x.com/juanmacias/status/2100463318209048850>) | — | Day-long field test of Jev on a Spanish legal corpus, replacing a hand-built regex classifier with a probability and reporting what held up, what broke and where the team's own labels were wrong. |
 
-<a id="subcategory-science-references"></a>
+</details>
 
-### More guides & websites
+<details id="subcategory-science-references">
+<summary><strong>More guides &amp; websites</strong> · 2 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
 | [Adverse drug effect detection with GEPA — article](<https://praneeth16.github.io/blog/adapting-jev-with-gepa>) | — | Uses Jev to flag sentences reporting suspected adverse drug effects in medical literature, then GEPA prompt optimization raised F1 from 69.1% to 79.7% and cut false positives from 47 to 22. |
 | [Fotocopiatrice — app](<https://fotocopiatrice.vercel.app/>) | — | Static site that reads all 5,082 amendments filed in the Italian Chamber on the 2025 budget law, finds identical or rewritten-equivalent texts and shows who signed them; the Jev analysis took 12,206 calls for $0.84. |
 
-<a id="category-creative"></a>
+</details>
 
-## Writing, media & creative tools
+</details>
 
-<a id="subcategory-creative-writing"></a>
+<details id="category-creative">
+<summary><strong>Writing, media &amp; creative tools</strong> · 173 resources</summary>
 
-### Writing & publishing
+<details id="subcategory-creative-writing">
+<summary><strong>Writing &amp; publishing</strong> · 19 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -10831,9 +11021,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [slop-grader — npm](<https://www.npmjs.com/package/@lukstei/slop-grader>) | — | CLI and agent skill that grades text and Markdown files line by line against rulesets for AI slop, grammar and technical-doc quality with Jev, then hands the flagged violations to an AI agent to fix. |
 | [Vibe Check for X — demo](<https://x.com/rafalwilinski/status/2100959576682012988>) | — | Chrome and Firefox extension that scores a draft X post before you hit Post on virality, clarity, ragebait, cringe, sounding AI-written, and regret risk, with an overall send-or-sleep verdict. |
 
-<a id="subcategory-creative-visual"></a>
+</details>
 
-### Visual media & design
+<details id="subcategory-creative-visual">
+<summary><strong>Visual media &amp; design</strong> · 45 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -10883,9 +11074,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [tisco](<https://github.com/cairodavila/tisco>) | 5 | Terminal tool for asking questions about video shoot transcripts and organizing the matching clips, with Jev judging requests and transcripts, for example finding clips with incomplete sentences, while code moves files. |
 | [Visual reference finder](<https://x.com/albicodes/status/2100720936852857271>) | — | Tool for creative work that turns one prompt into 100 reference images drawn from Cosmos, NASA and The Met. |
 
-<a id="subcategory-creative-audio"></a>
+</details>
 
-### Music & audio creation
+<details id="subcategory-creative-audio">
+<summary><strong>Music &amp; audio creation</strong> · 22 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -10912,9 +11104,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Real-time orchestra conductor](<https://x.com/GulatiYajat/status/2100963005764919517>) | — | Experiment in which Jev conducts a musical orchestra in real time. |
 | [What toxicity sounds like](<https://x.com/rrriviannn/status/2100807838566383819>) | — | Sound experiment that uses Jev judgments to generate audio for a concept, here what "toxicity" sounds like, following an earlier sunflower image experiment. |
 
-<a id="subcategory-creative-projects"></a>
+</details>
 
-### More projects & source code
+<details id="subcategory-creative-projects">
+<summary><strong>More projects &amp; source code</strong> · 41 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -10960,9 +11153,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [treg /jev xboost](<https://github.com/superdesigndev/treg/blob/main/src/treg/application/jev_xboost.py>) | — | Demo in the treg agent-tools gateway that pulls launch posts from X over the last 24 hours, runs engagement forensics, and has Jev deliver a verdict on each. |
 | [voicevox-jev-proxy](<https://github.com/nemalabs/voicevox-jev-proxy>) | — | Creative Tools: This project integrates Jev to provide structured decisions for its workflow. See the repository for implementation details. |
 
-<a id="subcategory-creative-posts"></a>
+</details>
 
-### More posts & discussions
+<details id="subcategory-creative-posts">
+<summary><strong>More posts &amp; discussions</strong> · 21 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -10988,17 +11182,19 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [X growth analysis of 3,282 posts](<https://x.com/iannuttall/status/2100668908227162567>) | — | Analysis of 3,282 of the author's X posts, asking Jev 8 questions each about topic, hook and tone: 4,252,330 tokens for $0.1282, finding how-to posts drew 150 median likes versus a 44 overall median. |
 | [X post research dashboard](<https://x.com/yuhasbeentaken/status/2101231502038339798>) | — | Dashboard that labels a personal archive of 1,315 saved X posts across 8 dimensions such as topic, hook and writing style, for about $0.086, so patterns can be filtered and compared by engagement. |
 
-<a id="subcategory-creative-videos"></a>
+</details>
 
-### More videos & channels
+<details id="subcategory-creative-videos">
+<summary><strong>More videos &amp; channels</strong> · 1 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
 | [Jev auto-clipping tool](<https://www.youtube.com/watch?v=WZzU1HN1sC8>) | — | Auto-clipping tool that transcribes a video with Grok speech-to-text and has Jev score and rank highlight candidates, finding 11 clips in about two seconds. |
 
-<a id="subcategory-creative-references"></a>
+</details>
 
-### More guides & websites
+<details id="subcategory-creative-references">
+<summary><strong>More guides &amp; websites</strong> · 24 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -11027,13 +11223,15 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [TypeSesame — app](<https://typesesame.com>) | — | Web room whose light, color, type, sound and street view shift with the feeling of what you type, built with Claude Opus 5 and Jev. |
 | [Virlo Jev for content marketing — app](<https://virlo.ai>) | — | Virlo feature where Jev judges the hooks, formats and angles of every video in your niche from a database of 12.8M viral videos, then Claude turns the winners into a script; available free in Virlo and its MCP. |
 
-<a id="category-voice"></a>
+</details>
 
-## Voice & real-time interfaces
+</details>
 
-<a id="subcategory-voice-assistants"></a>
+<details id="category-voice">
+<summary><strong>Voice &amp; real-time interfaces</strong> · 69 resources</summary>
 
-### Voice assistants
+<details id="subcategory-voice-assistants">
+<summary><strong>Voice assistants</strong> · 29 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -11067,9 +11265,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Voice-driven computer use](<https://www.reddit.com/r/typesafe_ai/comments/1wjxif2/ultrafast_voice_to_computer_use_with_jev/>) | — | Video of spoken commands driving a Mac desktop in near real time, with Jev choosing the computer-use actions. |
 | [Youform voice builder](<https://x.com/themkmaker/status/2100961111319429403>) | — | Voice form builder in Youform where Jev turns spoken instructions into form-building actions quickly. |
 
-<a id="subcategory-voice-speech"></a>
+</details>
 
-### Speech processing
+<details id="subcategory-voice-speech">
+<summary><strong>Speech processing</strong> · 4 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -11078,9 +11277,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [jevis — repo](<https://github.com/chasemc67/jevis>) | 1 | Always-on voice input harness that runs streaming speech-to-text through a Jev directed-speech filter so ambient chatter no longer ends up in AI voice messages. |
 | [Semantic Live Caption](<https://github.com/limboinf/semantic-live-caption>) | 7 | Real-time captioning page that streams speech through the open Confucius4-R2T2 ASR model while Jev annotates each sentence for key points, emotion and intent, with DeepSeek optionally proposing new labels. |
 
-<a id="subcategory-voice-realtime"></a>
+</details>
 
-### Real-time communication
+<details id="subcategory-voice-realtime">
+<summary><strong>Real-time communication</strong> · 4 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -11089,9 +11289,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Speko Gateway Jev voice router — app](<https://speko.ai>) | — | Open customer-side data plane for real-time voice AI that relays evaluation models such as typesafe:jev-1.13.0, with an example that routes each finalized voice turn using one batched Jev evaluation. |
 | [Speko Gateway Jev voice router — repo](<https://github.com/SpekoAI/gateway>) | — | Open customer-side data plane for real-time voice AI that relays evaluation models such as typesafe:jev-1.13.0, with an example that routes each finalized voice turn using one batched Jev evaluation. |
 
-<a id="subcategory-voice-projects"></a>
+</details>
 
-### More projects & source code
+<details id="subcategory-voice-projects">
+<summary><strong>More projects &amp; source code</strong> · 13 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -11109,9 +11310,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [VoiceX llm-bench Jev judge](<https://github.com/xuyungit/VoiceX/tree/main/tools/llm-bench>) | — | Benchmark tool for the VoiceX desktop voice-input app that uses Jev as the judge of LLM post-processing, asking three fixed questions about each ASR correction to credit good edits and flag bad ones. |
 | [VoiceX llm-bench Jev judge — repo](<https://github.com/xuyungit/VoiceX>) | — | Benchmark tool for the VoiceX desktop voice-input app that uses Jev as the judge of LLM post-processing, asking three fixed questions about each ASR correction to credit good edits and flag bad ones. |
 
-<a id="subcategory-voice-posts"></a>
+</details>
 
-### More posts & discussions
+<details id="subcategory-voice-posts">
+<summary><strong>More posts &amp; discussions</strong> · 13 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -11129,9 +11331,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Real-time voice browser control](<https://x.com/moritzkremb/status/2100577979021832365>) | — | Voice control for the browser: the spoken transcript goes to Jev, which returns probabilities in ~300ms and triggers the click, at $0.0002 per decision. |
 | [Voice intent to tool calls](<https://x.com/BhosalePratim/status/2100986774742765991>) | — | Voice-agent experiment that replaces the LLM's tool-choice step with Jev so decisions run on partial transcripts, letting the agent act before the user finishes the sentence. |
 
-<a id="subcategory-voice-references"></a>
+</details>
 
-### More guides & websites
+<details id="subcategory-voice-references">
+<summary><strong>More guides &amp; websites</strong> · 6 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -11142,21 +11345,24 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [OpenCues decision seam — app](<https://www.opencues.com>) | — | Open standard that turns any text field into a two-way LLM channel, using a TypeSafe decision seam to select commands, sentences and candidates, or skip a generation call entirely. |
 | [Vellum voice judges — app](<https://vellum.ai>) | — | Jev provider in the Vellum personal assistant used by live-voice judges: one decides whether a barged-in request should keep running in the background, another overrules the fast front door when a turn needs tools. |
 
-<a id="category-education"></a>
+</details>
 
-## Education & teaching
+</details>
 
-<a id="subcategory-education-tutors"></a>
+<details id="category-education">
+<summary><strong>Education &amp; teaching</strong> · 19 resources</summary>
 
-### Tutors & learning apps
+<details id="subcategory-education-tutors">
+<summary><strong>Tutors &amp; learning apps</strong> · 1 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
 | [talkr](<https://x.com/0xaniol/status/2101076982373191927>) | — | Speaking-practice app that gives you a topic, records 30 seconds of speech and has Jev score pauses, filler words, repetition, confidence and clarity with feedback. |
 
-<a id="subcategory-education-assessment"></a>
+</details>
 
-### Assessment & grading
+<details id="subcategory-education-assessment">
+<summary><strong>Assessment &amp; grading</strong> · 6 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -11167,17 +11373,19 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Universal History Simulator chronicle review — app](<https://historysimulator.vercel.app>) | — | Playthrough grader in the Universal History Simulator, an educational procedural history game, that asks Jev whether each recorded turn is anachronistic, uses outside knowledge, fits the character's role and what purpose it serves. |
 | [Universal History Simulator chronicle review — repo](<https://github.com/benjaminbreen/UHS>) | — | Playthrough grader in the Universal History Simulator, an educational procedural history game, that asks Jev whether each recorded turn is anachronistic, uses outside knowledge, fits the character's role and what purpose it serves. |
 
-<a id="subcategory-education-teaching"></a>
+</details>
 
-### Teaching resources
+<details id="subcategory-education-teaching">
+<summary><strong>Teaching resources</strong> · 1 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
 | [Working Memory Jev (Passage) — demo](<https://x.com/Austin_Way/status/2102131624921968704>) | — | Experimental local teaching aid that shows educators where an instructional passage may ask learners to hold too many ideas or relationships at once as the text unfolds. |
 
-<a id="subcategory-education-projects"></a>
+</details>
 
-### More projects & source code
+<details id="subcategory-education-projects">
+<summary><strong>More projects &amp; source code</strong> · 8 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -11190,39 +11398,44 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [TeachAny PBL Jev recall](<https://github.com/weponusa/teachany-courseware/blob/main/scripts/pbl-jev-recall-flow.mjs>) | — | Recall step in the TeachAny courseware site's project-based-learning pipeline that asks Jev an independent Noul per curriculum item and drops candidates below 0.20 before the incumbent LLM judge picks the top 16. |
 | [TeachAny PBL Jev recall — repo](<https://github.com/weponusa/teachany-courseware>) | — | Recall step in the TeachAny courseware site's project-based-learning pipeline that asks Jev an independent Noul per curriculum item and drops candidates below 0.20 before the incumbent LLM judge picks the top 16. |
 
-<a id="subcategory-education-posts"></a>
+</details>
 
-### More posts & discussions
+<details id="subcategory-education-posts">
+<summary><strong>More posts &amp; discussions</strong> · 1 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
 | [Exam question predictor](<https://x.com/hametgholizadeh/status/2101289895624917076>) | — | Ranks 80 real exam questions and 297 practice questions by how likely each is to appear on the actual exam, done in 80 seconds for $0.0256. |
 
-<a id="subcategory-education-references"></a>
+</details>
 
-### More guides & websites
+<details id="subcategory-education-references">
+<summary><strong>More guides &amp; websites</strong> · 2 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
 | [Leximory Jev evaluation — app](<https://leximory.com>) | — | Language-learning app for English and Japanese readers that runs Jev through the AI SDK evaluate API, for example to detect whether a looked-up term names a place and what kind. |
 | [Střední školy news classifier — app](<https://stredniskoly.vercel.app>) | — | Script behind a Czech site of secondary-school admission results that uses Jev to classify schools' news posts and decide which date in an announcement, such as an open day, is the event date. |
 
-<a id="category-demos"></a>
+</details>
 
-## Demos & playgrounds
+</details>
 
-<a id="subcategory-demos-playgrounds"></a>
+<details id="category-demos">
+<summary><strong>Demos &amp; playgrounds</strong> · 27 resources</summary>
 
-### API playgrounds
+<details id="subcategory-demos-playgrounds">
+<summary><strong>API playgrounds</strong> · 2 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
 | [jev-playground](<https://github.com/shivanathd/jev-playground>) | 0 | BYOK playground for TypeSafe Jev (System One): Choice, Score, Noul examples for production gates. |
 | [TypeSafe AI Playground](<https://github.com/TypeSafeAI/typesafe-playground>) | 21 | Community web playground with 110 editable Jev use cases, games, dilemmas, and model challenges, covering classification, A/B input comparisons, conversation routing, field extraction, and code-policy checks. |
 
-<a id="subcategory-demos-examples"></a>
+</details>
 
-### Runnable examples
+<details id="subcategory-demos-examples">
+<summary><strong>Runnable examples</strong> · 6 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -11233,9 +11446,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Smart home example](<https://docs.typesafe.ai/demos/smart-home.md>) | — | An official application example. |
 | [TypeSafe Typewriter](<https://typesafe-demo.val.run/>) | — | Val Town demo that re-scores a sentence on every keystroke, showing 16 calibrated judgments such as tone, urgency, passive-aggressiveness and AI-written move as you type. |
 
-<a id="subcategory-demos-projects"></a>
+</details>
 
-### More projects & source code
+<details id="subcategory-demos-projects">
+<summary><strong>More projects &amp; source code</strong> · 7 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -11247,9 +11461,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Job Risk Analyzer](<https://github.com/WeSecureYou/Jev-test>) | 0 | TypeScript CLI and REST API that rates an occupation's exposure to AI-driven layoffs, likely trajectory, need for human accountability and overall resilience. |
 | [TypeSafe AI Playground](<https://github.com/markjaquith/typesafe-ai-playground>) | 4 | Rust CLI of small Jev experiments: PHI detection, code-comment review, interactive tone analysis, business and occupation classification, and a file viewer that blurs lines Jev scores as unimportant. |
 
-<a id="subcategory-demos-posts"></a>
+</details>
 
-### More posts & discussions
+<details id="subcategory-demos-posts">
+<summary><strong>More posts &amp; discussions</strong> · 7 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -11261,9 +11476,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [https://x.com/stevekrouse/status/2100306503412375687 — says browser use may be the first killer use-](<https://x.com/stevekrouse/status/2100306503412375687>) | — | case for Jev, quoting an OpenCode testing demo; 7 · 12 · 320 · 53K views. |
 | [typesafe-image-diffusion](<https://x.com/just_aryansingh/status/2100617080395710748>) | — | Diffusion-style pixel art out of a classifier: 256 parallel per-pixel Jev questions plus refinement passes. |
 
-<a id="subcategory-demos-references"></a>
+</details>
 
-### More guides & websites
+<details id="subcategory-demos-references">
+<summary><strong>More guides &amp; websites</strong> · 5 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -11273,13 +11489,15 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Kill My Idea — app](<https://killmyidea.stemonte.io>) | — | Web app that judges a startup idea as KILL IT, FIX IT, or SHIP IT from one request of 10 parallel Jev questions, with local weights and gates computing the verdict. |
 | [Yes / No](<https://yesno.coderai.dev>) | — | Free, no-sign-up tool that answers any question with Yes, No or Maybe from a Jev Noul, pulling in live web search when current facts are needed. |
 
-<a id="category-patterns"></a>
+</details>
 
-## Decision patterns & architecture
+</details>
 
-<a id="subcategory-patterns-routing"></a>
+<details id="category-patterns">
+<summary><strong>Decision patterns &amp; architecture</strong> · 29 resources</summary>
 
-### Routing & selection
+<details id="subcategory-patterns-routing">
+<summary><strong>Routing &amp; selection</strong> · 5 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -11289,18 +11507,20 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Smart home assistant demo — discussion](<https://www.reddit.com/r/homeassistant/comments/1wjmqj0/upcoming_revolution_for_smart_home_control_with/>) | — | Interprets home commands with a long speculative fan-out of Choices, plus a Noul that spots compound requests for an LLM to split. |
 | [Smart home assistant demo — discussion 2](<https://www.reddit.com/r/accelerate/comments/1wifrk4/jev_demo/>) | — | Interprets home commands with a long speculative fan-out of Choices, plus a Noul that spots compound requests for an LLM to split. |
 
-<a id="subcategory-patterns-scoring"></a>
+</details>
 
-### Scoring & ranking
+<details id="subcategory-patterns-scoring">
+<summary><strong>Scoring &amp; ranking</strong> · 2 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
 | [Composite scoring](<https://docs.typesafe.ai/patterns/composite-scoring>) | — | Scores each dimension separately and combines them with weights in code, so priorities change without touching the questions. |
 | [Re-ranking](<https://docs.typesafe.ai/cookbooks/rerank_typesafe>) | — | Scores each BM25 candidate with one Noul per query-passage pair, lifting top-10 legal retrieval accuracy from 38% to 62% for about $0.06 in total. |
 
-<a id="subcategory-patterns-verification"></a>
+</details>
 
-### Verification & gates
+<details id="subcategory-patterns-verification">
+<summary><strong>Verification &amp; gates</strong> · 3 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -11308,17 +11528,19 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Double-checking citations](<https://docs.typesafe.ai/cookbooks/citation_check>) | — | Pairs an exact string match with a supports, contradicts, or says-nothing Choice to catch fabricated and misused citations. |
 | [Guardrails for LLMs](<https://docs.typesafe.ai/cookbooks/llm_guardrails>) | — | Screens inputs and outputs with hazard Nouls and a severity Score, then maps probabilities to pass, review, or block through code-owned policies. |
 
-<a id="subcategory-patterns-confidence"></a>
+</details>
 
-### Confidence & uncertainty
+<details id="subcategory-patterns-confidence">
+<summary><strong>Confidence &amp; uncertainty</strong> · 1 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
 | [Classification using confidence](<https://docs.typesafe.ai/cookbooks/classification_using_confidence>) | — | Sorts 60 SEC filings into 75 industry groups and falls back to the broader division below 0.9 confidence, turning 39 correct answers into 48 useful ones. |
 
-<a id="subcategory-patterns-projects"></a>
+</details>
 
-### More projects & source code
+<details id="subcategory-patterns-projects">
+<summary><strong>More projects &amp; source code</strong> · 3 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -11326,18 +11548,20 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [← Back to Awesome Jev](<https://github.com/Li-Evan/awesome-jev#official-cookbooks>) | 24 | Listed by the source without a separate description. |
 | [← Back to Awesome Jev](<https://github.com/Li-Evan/awesome-jev#patterns>) | 24 | Listed by the source without a separate description. |
 
-<a id="subcategory-patterns-posts"></a>
+</details>
 
-### More posts & discussions
+<details id="subcategory-patterns-posts">
+<summary><strong>More posts &amp; discussions</strong> · 2 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
 | [Line-by-line search — demo](<https://x.com/dotpem/status/2100389272004198844>) | — | Ranks 218 lines of a terms-of-service document with a single Choice and uses a Noul to say when the document has no answer. |
 | [Line-by-line search — discussion](<https://www.reddit.com/r/typesafe/comments/1wjy4f9/semantic_search_without_embeddings_218_lines/>) | — | Ranks 218 lines of a terms-of-service document with a single Choice and uses a Noul to say when the document has no answer. |
 
-<a id="subcategory-patterns-references"></a>
+</details>
 
-### More guides & websites
+<details id="subcategory-patterns-references">
+<summary><strong>More guides &amp; websites</strong> · 13 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -11355,13 +11579,15 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Self-consistency with Choices — nouls](<https://docs.typesafe.ai/cookbooks/consistency_noul_cookbook>) | — | Adds an uncertain outcome to moderation decisions and weighs label agreement against the share of cases handled automatically. |
 | [Structure recovery cookbook](<https://docs.typesafe.ai/cookbooks/autoformat>) | — | Official cookbook that rebuilds Markdown from plain text that lost its formatting in two requests: one stitches hard-wrapped lines, one classifies every block as heading, list, code or callout. |
 
-<a id="category-learning"></a>
+</details>
 
-## Articles, tutorials & talks
+</details>
 
-<a id="subcategory-learning-guides"></a>
+<details id="category-learning">
+<summary><strong>Articles, tutorials &amp; talks</strong> · 1,111 resources</summary>
 
-### Guides & tutorials
+<details id="subcategory-learning-guides">
+<summary><strong>Guides &amp; tutorials</strong> · 180 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -11546,9 +11772,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [話題のAI『Jev』を解説](<https://www.youtube.com/watch?v=nWY_-5u4RUI>) | — | Japanese explainer on how a judgment-only model works and why to pair it with generative AI, with an AI-writing detection demo, a roundup of use cases, and setup steps. |
 | [화제의 초고속 TypeSafe Jev](<https://www.youtube.com/watch?v=BWl21_Tpxl8>) | — | Korean-language explainer covering System 1 versus System 2, the parallel sampler, RLCD and Brier-score calibration, pricing, and use cases such as fraud detection. |
 
-<a id="subcategory-learning-talks"></a>
+</details>
 
-### Talks & videos
+<details id="subcategory-learning-talks">
+<summary><strong>Talks &amp; videos</strong> · 43 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -11596,9 +11823,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [What's next after RLHF?](<https://www.youtube.com/watch?v=cJ0EOzey--o>) | — | TypeSafe's CEO at AI Engineer World's Fair 2026 on training models for calibrated decisions instead of human approval. |
 | [Why we made Jev](<https://www.youtube.com/watch?v=cFx9Z3ZXca0>) | — | Latent Space interview with TypeSafe CEO Diogo Almeida on System One models, RLCD vs RLHF and RLVR, refusing public benchmarks, model versioning, and how to build with small decisions. |
 
-<a id="subcategory-learning-news"></a>
+</details>
 
-### News & announcements
+<details id="subcategory-learning-news">
+<summary><strong>News &amp; announcements</strong> · 109 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -11712,9 +11940,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [巴西 Supersonic Labs 发布 144.3M 参数开源决策模型 Julia 1，可在 CPU 上运行](<https://www.marktechpost.com/2026/09/26/supersonic-labs-releases-julia-1-a-144-3m-parameter-open-decision-model-that-runs-on-a-cpu>) | — | 巴西 AI 实验室 Supersonic Labs 发布 144.3M 参数的开源决策模型 Julia 1，权重以 Apache 2.0 协议托管在 Hugging Face，可在普通 CPU 上运行，不生成文本，只对 2 到 20 个候选答案输出选择和概率。 |
 | [斯坦福与 NVIDIA 发布对比式语言模型 CLM-8B](<https://aihot.news/items/cmufkk74d038xro8wkn32j6re>) | — | 斯坦福大学与 NVIDIA Research 团队发布 Contrastive Language Models（CLM）及 CLM-8B 模型，用 InfoNCE 对比目标连接状态与动作，作为 System One 决策模型。 |
 
-<a id="subcategory-learning-analysis"></a>
+</details>
 
-### Analysis & discussions
+<details id="subcategory-learning-analysis">
+<summary><strong>Analysis &amp; discussions</strong> · 159 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -11878,9 +12107,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [玉伯谈 Jev 模型：系统一模型才刚开始](<https://aihot.news/items/cmue8ofzm0r6uroghhbx42nhf>) | — | 玉伯称这是他见过关于 Jev 最浅入深出的一篇文章，印象最深的点包括：模型该给代码用还是给人用、为什么在 OpenAI 做不出来、什么是杰文斯悖论、不看公开榜单而看内部工作流、用户数据没用、老看 PMF 容易扼杀创新。他还提到借助 Jev 这类模型 SaaS 有大机会，并把 Jev 定义为"系统一模型"，认为系统一模型才刚刚开始，同时表示不看好 neo lab。 |
 | [玉伯谈 Jev 模型：系统一模型才刚开始](<https://x.com/lifesinger/status/2102772248985870349>) | — | 玉伯称这是他见过关于 Jev 最浅入深出的一篇文章，印象最深的点包括：模型该给代码用还是给人用、为什么在 OpenAI 做不出来、什么是杰文斯悖论、不看公开榜单而看内部工作流、用户数据没用、老看 PMF 容易扼杀创新。他还提到借助 Jev 这类模型 SaaS 有大机会，并把 Jev 定义为"系统一模型"，认为系统一模型才刚刚开始，同时表示不看好 neo lab。 |
 
-<a id="subcategory-learning-cases"></a>
+</details>
 
-### Examples & case studies
+<details id="subcategory-learning-cases">
+<summary><strong>Examples &amp; case studies</strong> · 20 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -11905,9 +12135,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [TypeSafe Typewriter — demo](<https://x.com/stevekrouse/status/2100287368221659289>) | — | Val Town demo that re-scores a sentence on every keystroke, showing 16 calibrated judgments such as tone, urgency, passive-aggressiveness and AI-written move as you type. |
 | [typesafe-triage-demo](<https://github.com/gastonmira/typesafe-triage-demo>) | 0 | Demo pública: mensaje → juicios TypeSafe (Choice/Noul/Score) vs decisión en código. Spec: Notion TypeSafe triage. |
 
-<a id="subcategory-learning-projects"></a>
+</details>
 
-### More projects & source code
+<details id="subcategory-learning-projects">
+<summary><strong>More projects &amp; source code</strong> · 169 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -12081,9 +12312,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [← Back to Awesome Jev](<https://github.com/Li-Evan/awesome-jev#talks-and-videos>) | 24 | Listed by the source without a separate description. |
 | [← Back to Awesome Jev](<https://github.com/Li-Evan/awesome-jev#techniques-and-analysis>) | 24 | Listed by the source without a separate description. |
 
-<a id="subcategory-learning-posts"></a>
+</details>
 
-### More posts & discussions
+<details id="subcategory-learning-posts">
+<summary><strong>More posts &amp; discussions</strong> · 169 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -12257,9 +12489,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [网友玩梗：人人都在喊jev jev jev](<https://x.com/CompleteSkeptic/status/2101719837592743944>) | — | 所有人：jev jev jev 我奶奶： |
 | [豆包工作 /plan 与 /goal 功能获好评](<https://x.com/dongxi_nlp/status/2102647304264298856>) | — | 用户用豆包工作的 /plan、/goal 及任务队列功能完成 40 份关于 Jev 的研究文件，并整理成五主题知识库和研究观察站。该用户称这些功能非常好用，并为字节团队点赞。 |
 
-<a id="subcategory-learning-videos"></a>
+</details>
 
-### More videos & channels
+<details id="subcategory-learning-videos">
+<summary><strong>More videos &amp; channels</strong> · 87 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -12351,9 +12584,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [判定専用AI『Jev』徹底解説](<https://www.youtube.com/watch?v=YhyjMcYhzII>) | — | Japanese deep dive after two days of use: provider support, the four factors that decide judgment quality, a YouTube-growth prediction test, and how to split work between code, Jev, and LLMs. |
 | [챗GPT보다 200배 빠른 AI의 등장, JEV 완전 분석](<https://www.youtube.com/watch?v=Hr3srtB6lZ8>) | — | Korean-language roundup of early Jev demos, from self-driving and chess to sorting 1,000 emails and game NPCs, ending with a comparison against LLMs. |
 
-<a id="subcategory-learning-references"></a>
+</details>
 
-### More guides & websites
+<details id="subcategory-learning-references">
+<summary><strong>More guides &amp; websites</strong> · 175 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -12533,13 +12767,15 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [网友玩梗：人人都在喊jev jev jev](<https://aihot.news/items/cmua31w3p0cnyrowjwsjxg7jc>) | — | 所有人：jev jev jev 我奶奶： |
 | [豆包工作 /plan 与 /goal 功能获好评](<https://aihot.news/items/cmudqgjcd0ogtrogg2y2d6c5p>) | — | 用户用豆包工作的 /plan、/goal 及任务队列功能完成 40 份关于 Jev 的研究文件，并整理成五主题知识库和研究观察站。该用户称这些功能非常好用，并为字节团队点赞。 |
 
-<a id="category-community"></a>
+</details>
 
-## Community & resource lists
+</details>
 
-<a id="subcategory-community-directories"></a>
+<details id="category-community">
+<summary><strong>Community &amp; resource lists</strong> · 226 resources</summary>
 
-### Directories & collections
+<details id="subcategory-community-directories">
+<summary><strong>Directories &amp; collections</strong> · 104 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -12648,17 +12884,19 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [yibie/awesome-jev](<https://github.com/yibie/awesome-jev>) | 2,047 | A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI's System One model for typed decisions. |
 | [yzfly/awesome-jev-zh](<https://github.com/yzfly/awesome-jev-zh>) | 77 | Jev / TypeSafe System One 中文精选列表：官方资料、SDK、爆款应用、Agent 工具、开源复现与独立评测，附中文上手指南，每日自动收录 GitHub 热门项目。 |
 
-<a id="subcategory-community-people"></a>
+</details>
 
-### Builders & accounts
+<details id="subcategory-community-people">
+<summary><strong>Builders &amp; accounts</strong> · 1 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
 | [@dotey](<https://x.com/dotey>) | — | Chinese explainer thread |
 
-<a id="subcategory-community-projects"></a>
+</details>
 
-### More projects & source code
+<details id="subcategory-community-projects">
+<summary><strong>More projects &amp; source code</strong> · 111 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -12774,9 +13012,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [usejev — README](<https://github.com/Rassl/usejev/blob/40e1fabb09a936cef180c75b0ee421b64c1bccc1/README.md>) | 0 | An unofficial community catalog presents practical Jev use cases and includes tools for ranking and publishing community examples. |
 | [ZHYsfl/learn-jev](<https://github.com/ZHYsfl/learn-jev>) | 1 | a repo that helps you learn jev model. |
 
-<a id="subcategory-community-references"></a>
+</details>
 
-### More guides & websites
+<details id="subcategory-community-references">
+<summary><strong>More guides &amp; websites</strong> · 10 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -12791,13 +13030,15 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [网站](<https://awesomejev.vercel.app/zh/>) | — | English · 网站 · 英文网站 |
 | [사이트](<https://awesomejev.vercel.app/ko/>) | — | English · 사이트 · 영어 사이트 |
 
-<a id="category-other"></a>
+</details>
 
-## Other resources & source leads
+</details>
 
-<a id="subcategory-other-experiments"></a>
+<details id="category-other">
+<summary><strong>Other resources &amp; source leads</strong> · 156 resources</summary>
 
-### Other experiments
+<details id="subcategory-other-experiments">
+<summary><strong>Other experiments</strong> · 36 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -12838,9 +13079,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [zadescoxp/Jev-Trades website](<https://jev-trades.vercel.app>) | — | Trading bot with the all new TypeSafe AI's first system one model named as Jev |
 | [zephel01/Jev-sample](<https://github.com/zephel01/Jev-sample>) | — | question-shape demo: a 4-option Choice scores 48.3%, but decomposing into four precondition Nouls reaches 98.3%. Unique: quantifies the atomic-question decomposition payoff. \[self-reported\] |
 
-<a id="subcategory-other-references"></a>
+</details>
 
-### Additional references
+<details id="subcategory-other-references">
+<summary><strong>Additional references</strong> · 54 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -12899,9 +13141,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [Watermelon — app](<https://watermelon.shashwatchavan.com>) | — | Audits weekly program status updates: Jev reads the language while code parses dates and numbers, flagging updates labeled green whose own text describes blockers, with an eval report and live demo. |
 | [마음온 (maeum-on-attendance-care) — app](<https://kijung4290.github.io/maeum-on-attendance-care/>) | — | Dashboard for senior-center programs that uses recent attendance records, uploaded as XLSX, to flag which participants staff should check on first, with Jev giving per-option risk probabilities. |
 
-<a id="subcategory-other-projects"></a>
+</details>
 
-### More projects & source code
+<details id="subcategory-other-projects">
+<summary><strong>More projects &amp; source code</strong> · 35 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -12941,9 +13184,10 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [返回中文首页](<https://github.com/valentynkit/awesome-jev-5/blob/6de83e771360d767a7fdb178ac8425497c77ee7f/README_zh.md>) | — | 分类索引 · 资料来源 |
 | [마음온 (maeum-on-attendance-care)](<https://github.com/kijung4290/maeum-on-attendance-care>) | — | Dashboard for senior-center programs that uses recent attendance records, uploaded as XLSX, to flag which participants staff should check on first, with Jev giving per-option risk probabilities. |
 
-<a id="subcategory-other-posts"></a>
+</details>
 
-### More posts & discussions
+<details id="subcategory-other-posts">
+<summary><strong>More posts &amp; discussions</strong> · 29 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
@@ -12977,14 +13221,19 @@ Repository stars are imported snapshots, not live counts. “≈” marks a roun
 | [jev-even-odd](<https://x.com/steventey/status/2101788378882863427>) | — | Tongue-in-cheek npm package that checks whether a number is even or odd by asking Jev through the AI SDK. |
 | [MakerMap](<https://x.com/verbove/status/2100990085340496185>) | — | Map of indie makers that uses Jev to find the makers near you that you should meet. |
 
-<a id="subcategory-other-packages"></a>
+</details>
 
-### More packages & releases
+<details id="subcategory-other-packages">
+<summary><strong>More packages &amp; releases</strong> · 2 resources</summary>
 
 | Resource | Repository stars | Description |
 | :--- | ---: | :--- |
 | [jev-even-odd — npm](<https://www.npmjs.com/package/jev-even-odd>) | — | Tongue-in-cheek npm package that checks whether a number is even or odd by asking Jev through the AI SDK. |
 | [typesafe-ai on PyPI](<https://pypi.org/project/typesafe-ai/>) | — | Community redirect shim. The real package is typesafe-sdk; this name was registered to block slopsquatting. Not affiliated with TypeSafe. |
+
+</details>
+
+</details>
 
 ## Contributing
 

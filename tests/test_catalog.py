@@ -145,3 +145,48 @@ def test_collector_uses_individual_html_card_descriptions(tmp_path):
     assert len(entries) == 2
     assert "Second resource" not in entries[0]["description"]
     assert "First resource" not in entries[1]["description"]
+
+
+def test_readme_disclosures_render_complete_markdown_tables():
+    from markdown_it import MarkdownIt
+
+    text = readme(DATA)
+    rendered = MarkdownIt("default", {"html": True}).render(text)
+    assert rendered.count("<table>") == len(DATA["subcategories"])
+    assert rendered.count("<details ") == len(DATA["categories"]) + len(DATA["subcategories"])
+    assert rendered.count("</details>") == rendered.count("<details ")
+    for category in DATA["categories"]:
+        assert f'<details id="category-{category["id"]}">' in rendered
+    for sub in DATA["subcategories"]:
+        assert f'<details id="subcategory-{sub["id"]}">' in rendered
+
+
+def test_static_rows_are_inside_nested_disclosures():
+    from html.parser import HTMLParser
+
+    class Disclosures(HTMLParser):
+        def __init__(self):
+            super().__init__()
+            self.groups = []
+            self.rows = 0
+
+        def handle_starttag(self, tag, attrs):
+            values = dict(attrs)
+            if tag == "details":
+                self.groups.append(values.get("class", ""))
+            if tag == "tr" and "data-entry" in values:
+                assert "result-category" in self.groups
+                assert self.groups[-1] == "result-subcategory"
+                self.rows += 1
+
+        def handle_endtag(self, tag):
+            if tag == "details":
+                self.groups.pop()
+
+    rows = 0
+    for category in DATA["categories"]:
+        parser = Disclosures()
+        parser.feed((ROOT / f"dist/categories/{category['id']}.html").read_text())
+        assert not parser.groups
+        rows += parser.rows
+    assert rows == len(DATA["entries"])
